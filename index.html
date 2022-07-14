@@ -11,20 +11,20 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
 </head>
-<body>
+<body id="top">
     <header id="main-header">
-        <a href="">
+        <a id="logo" href="/">
             <img src="https://via.placeholder.com/150x75?text=LOGO" alt="">
         </a>
         <nav>
-            <ul>
+            <ul id="main-menu" class="flex-container">
                 <li><a href="#main-header">Home</a></li>
                 <li><a href="#our-job">Services</a></li>
                 <li><a href="#lets-go">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <section id="hero">
+    <section id="hero" aria-label="Hero & CTA Section">
         <img src="https://via.placeholder.com/1600x600?text=HERO+IMAGE" alt="">
         <aside class="cta overlay">CTA Content</aside>
     </section>
@@ -71,7 +71,9 @@
         </form>
     </section>
     <footer class="flex-container">
-        <div class="flex-container">Back to top</div>
+        <div class="flex-container">
+            <a href="#top">Back to top</a>
+        </div>
         <div class="flex-container">Social links</div>
         <div class="flex-container">Copyright</div>
     </footer>

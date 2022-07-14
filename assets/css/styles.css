@@ -1,3 +1,42 @@
-body {
-    
+
+/* CSS-only smooth scrolling */
+html, * {
+    scroll-behavior: smooth!important;
+}
+
+
+/* Structure */
+
+.flex-container {
+    display: flex;
+}
+
+
+/* Main header & navigation */
+
+#logo {
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+}
+
+#main-menu {
+    margin: 15px 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+#main-menu li {
+    list-style: none;
+}
+
+#main-menu a {
+    text-decoration: none;
+}
+
+section {
+    outline: 2px solid;
+}
+img {
+    max-width: 100%;
 }
