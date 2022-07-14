@@ -12,23 +12,23 @@
 
 </head>
 <body>
-    <header>
-        Main Header
-        <a href="">Logo
-            <img src="" alt="">
+    <header id="main-header">
+        <a href="">
+            <img src="https://via.placeholder.com/150x75?text=LOGO" alt="">
         </a>
-        <nav>Menu
+        <nav>
             <ul>
-                <li><a href="">Services</a></li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="#main-header">Home</a></li>
+                <li><a href="#our-job">Services</a></li>
+                <li><a href="#lets-go">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <section>Hero
+    <section id="hero">
+        <img src="https://via.placeholder.com/1600x600?text=HERO+IMAGE" alt="">
         <aside class="cta overlay">CTA Content</aside>
     </section>
-    <section>
+    <section id="your-job">
         <h3>Your Job</h3>
         <ul>
             <li>Checklist Item</li>
@@ -37,35 +37,43 @@
             <li>Checklist Item</li>
         </ul>
     </section>
-    <section>
+    <section id="our-job">
         <h3>Our Job</h3>
         <div class="card">
             <h3>Lawn Treatments</h3>
-            <div class="overlay"></div>
-            <button></button>
+            <div class="overlay">
+                <img src="https://via.placeholder.com/350x450" alt="">
+            </div>
+            <button>Book your FREE vist</button>
         </div>
         <div class="card">
             <h3>Hard Surfaces</h3>
-            <div class="overlay"></div>
-            <button></button>
+            <div class="overlay">
+                <img src="https://via.placeholder.com/350x450" alt="">
+            </div>
+            <button>Book your FREE vist</button>
         </div>
     </section>
-    <section>
+    <section id="lets-go">
         <h3>Let's Go</h3>
         <form action="" method="post">
-            <label for=""></label>
+            <label for="">First Name</label>
             <input type="text">
-            <label for=""></label>
+            <label for="">Last Name</label>
             <input type="text">
-            <label for=""></label>
+            <label for="">Email</label>
             <input type="text">            
-            <label for=""></label>
+            <label for="">Phone</label>
             <input type="text">
             <span class="required">* Required fields</span>
             <button type="submit">Fire Away!</button>
 
         </form>
     </section>
-    <footer>Footer</footer>
+    <footer class="flex-container">
+        <div class="flex-container">Back to top</div>
+        <div class="flex-container">Social links</div>
+        <div class="flex-container">Copyright</div>
+    </footer>
 </body>
 </html>
