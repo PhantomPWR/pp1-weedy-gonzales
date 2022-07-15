@@ -1,5 +1,19 @@
+/* Table of Contents
+   -----------------
+   Temporary Styles
+   Utilities
+   Structure
+    - Main Header & Navigation
+    - Hero Section
+    - Your Job
+    - Our Job
+    - Let's Go
+    - Footer
+   -----------------
+ */
 
-/* --- Temporary styles while building layout --- */
+
+/* --- Temporary Styles (while building layout) --- */
 section,
 aside {
     outline: 2px solid black;
@@ -12,13 +26,12 @@ img {
 
 
 
-/* CSS-only smooth scrolling */
+
+/* Utilities */
 html, * {
     scroll-behavior: smooth!important;
 }
 
-
-/* Utilities */
 .overlay {
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -31,7 +44,7 @@ html, * {
 }
 
 
-/* Main header & navigation */
+/* Main Header & Navigation */
 #logo {
     display: block;
     margin: 15px auto;
@@ -54,7 +67,7 @@ html, * {
 
 
 
-/* Hero section */
+/* Hero Section */
 #hero {
     position: relative;
 }
@@ -67,3 +80,18 @@ aside {
     top: 0;
     text-align: center;
 }
+
+
+/* Your Job */
+
+
+
+/* Our Job */
+
+
+
+/* Let's Go */
+
+
+
+/* Footer */
