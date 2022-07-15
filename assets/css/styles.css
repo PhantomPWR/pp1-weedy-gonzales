@@ -168,6 +168,30 @@ aside {
 
 
 /* Let's Go */
+form {
+    margin-top: 1.6em;
+    width: 90%;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+}
+
+label:not(:first-of-type) {
+    margin-top: 1em;
+}
+
+.required {
+    font-size: 0.8rem;
+}
+
+form button {
+    display: block;
+    margin-top: 1em;
+}
+
 
 
 
