@@ -54,10 +54,13 @@ section h3 {
 /* Structure */
 .flex-container {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 section h3 {
@@ -86,6 +89,7 @@ section h3 {
     margin: 15px 0;
     padding: 0;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 #main-menu li {
@@ -193,6 +197,11 @@ form button {
 }
 
 
-
-
 /* Footer */
+footer .flex-container {
+    margin-top: 1em;
+}
+
+.social {
+    margin: 0 5px;
+}
