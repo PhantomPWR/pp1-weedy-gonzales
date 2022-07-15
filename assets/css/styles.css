@@ -54,10 +54,24 @@ section h3 {
 /* Structure */
 .flex-container {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 section h3 {
     margin-bottom: auto;
+}
+
+.custom-ul {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-ul li {
+    list-style: none;
+    margin: .25em auto;
 }
 
 
@@ -100,24 +114,57 @@ aside {
 
 
 /* Your Job */
-#your-job {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
 #your-job ul {
-    padding: 0;
+    
 }
 
 #your-job li {
-    list-style: none;
-    margin: .25em auto;
+    
 }
 
 
 /* Our Job */
+#our-job > h3 {
+    margin-bottom: 1em;
+}
 
+.card {
+    width: 90%;
+    position: relative;
+    border: 2px solid;
+    background: #cfcfcf;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    min-height: 300px;
+    padding: 1em;
+}
+
+.card h3,
+.card .overlay,
+.card button {
+    width: 90%;
+}
+
+.card h3 {
+    border: 2px solid;
+    margin: 0;
+    margin-top: -1.6em;
+}
+
+.card .overlay {
+    min-height: 250px;
+    margin: 1em auto;
+    justify-content: center;
+}
+
+.card h4 {
+    margin-bottom: 0;
+}
+
+.card .overlay-content p {
+    margin: 0.3em 0 0;
+}
 
 
 /* Let's Go */
