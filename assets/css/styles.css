@@ -2,6 +2,8 @@
    -----------------
    Temporary Styles
    Utilities
+   Typography
+   Decoration
    Structure
     - Main Header & Navigation
     - Hero Section
@@ -37,10 +39,25 @@ html, * {
 }
 
 
+/* Typography */
+h3 {
+    text-align: center;
+}
+
+
+/* Decoration */
+section h3 {
+    border-bottom: 2px solid;
+}
+
 
 /* Structure */
 .flex-container {
     display: flex;
+}
+
+section h3 {
+    margin-bottom: auto;
 }
 
 
@@ -83,7 +100,20 @@ aside {
 
 
 /* Your Job */
+#your-job {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#your-job ul {
+    padding: 0;
+}
+
+#your-job li {
+    list-style: none;
+    margin: .25em auto;
+}
 
 
 /* Our Job */
