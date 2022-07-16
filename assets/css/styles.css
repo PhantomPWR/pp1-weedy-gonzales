@@ -1,6 +1,7 @@
 /* Table of Contents
    -----------------
    Temporary Styles
+   Reset
    Utilities
    Typography
    Decoration
@@ -15,6 +16,7 @@
     - Phone (Portrait)
     - Phone (Landscape)
     - Tablet (Portrait)
+    - Tablet (Landscape)
    -----------------
  */
 
@@ -31,6 +33,12 @@ img {
 /* --------------------------------------------- */
 
 
+
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+}
 
 
 /* Utilities */
@@ -134,6 +142,9 @@ aside {
     width: 15%;
     height: 45%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 
@@ -143,7 +154,7 @@ aside {
 }
 
 #your-job li {
-    width: 33%;
+    width: 45%;
     text-align: left;
 }
 
@@ -250,7 +261,7 @@ footer > .flex-container {
 }
 
 #social-media {
-    margin: 0 5px;
+    margin: 0;
     justify-content: flex-start;
 }
 
@@ -265,56 +276,47 @@ footer > .flex-container {
 
 /* MEDIA QUERIES */
 
-/* Phone (Portrait) */
-@media (max-width: 413.98px) and (orientation: portrait) {
-    .flex-container {
-        flex-direction: column;
+
+/* Tablet (Landscape) */
+@media screen
+ and (min-width: 1024px) 
+ and (max-width: 1366px) {
+    #hero {
+        height: 350px;
     }
 
     aside {
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+        width: 25%;
+        height: 60%;
+    }
+}
+
+/* Tablet (Portrait) */
+@media screen 
+and (max-width: 1024px)
+and (orientation: portrait) {
+    #hero {
+        height: 350px;
     }
 
-    #your-job ul {
-        column-count: unset;
+    aside {
+        height: 66%;
+        width: 30%;
     }
 
     #your-job li {
-        width: 66%;
+        width: 60%;
     }
-
-    .card {
-        width: 90%;
-    }
-
-    .label-input-container {
-        width: 100%;
-    }
-
-    footer > .flex-container {
-        width: 100%;
-    }
-
-    #back-to-top {
-        order: -1;
-    }
-
-    #social-media,
-    #copyright {
-        justify-content: center;
-    }
-
-
 }
 
+
 /* Phone (Landscape) */
-@media (max-width: 844.98px) and (orientation: landscape) {
+@media screen 
+and (max-width: 844px)
+and (orientation: landscape) {
 
     #hero {
-        max-height: 150px;
+        height: 150px;
     }
 
     aside {
@@ -353,18 +355,55 @@ footer > .flex-container {
 
 }
 
+/* Phone (Portrait) */
+@media screen and (max-width: 414px) {
+    .flex-container {
+        flex-direction: column;
+    }
 
-/* Tablet (Portrait) */
-@media (max-width: 833.98px) and (orientation: portrait) {
     #hero {
-        height: 340px;
+        height: 200px;
     }
 
     aside {
-        height: 66%;
-        width: 30%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 66%;
+        height: 150px;
     }
+
+    #your-job ul {
+        column-count: unset;
+    }
+
+    #your-job li {
+        width: 66%;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .label-input-container {
+        width: 100%;
+    }
+
+    footer > .flex-container {
+        width: 100%;
+    }
+
+    #back-to-top {
+        order: -1;
+    }
+
+    #social-media,
+    #copyright {
+        justify-content: center;
+    }
+
+
 }
+
+
