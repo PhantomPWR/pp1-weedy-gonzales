@@ -121,16 +121,19 @@ nav {
 #hero {
     background: #cfcfcf;
     position: relative;
-    height: 150px;
+    height: 600px;
 }
 
 aside {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 50%;
+    right: 2%;
+    bottom: 50%;
+    left: auto;
     text-align: center;
+    width: 15%;
+    height: 45%;
+    margin: auto;
 }
 
 
@@ -268,47 +271,59 @@ footer > .flex-container {
         flex-direction: column;
     }
 
+    aside {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    #your-job ul {
+        column-count: unset;
+    }
+
+    #your-job li {
+        width: 66%;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .label-input-container {
+        width: 100%;
+    }
+
+    footer > .flex-container {
+        width: 100%;
+    }
+
+    #back-to-top {
+        order: -1;
+    }
+
+    #social-media,
+    #copyright {
+        justify-content: center;
+    }
+
+
 }
 
 /* Phone (Landscape) */
 @media (max-width: 844.98px) and (orientation: landscape) {
-    #main-header {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    #logo {
-        width: 66%;
-    }
-
-    nav {
-        width: 33%;
-    }
 
     #hero {
-        max-height: 240px;
-    }
-
-    aside {
-        top: auto;
-        right: 1em;
-        bottom: 1em;
-        left: auto;
-        max-width: 33%;
         max-height: 150px;
     }
 
-    #your-job ul {
-        flex-direction: row;
-        flex-wrap: wrap;
+    aside {
+        width: 33%;
+        height: 130px;
     }
 
     #your-job li {
-        min-width: 34%;
-    }
-
-    .card-container {
-        flex-direction: row;
-        justify-content: space-around;
+        min-width: 60%;
     }
 
     .card,
@@ -329,6 +344,10 @@ footer > .flex-container {
 
     form > .required {
         width: 100%;
+    }
+
+    footer > .flex-container {
+        width: 30%;
     }
 
 
