@@ -31,16 +31,16 @@
             <button>Book Now!</button>
         </aside>
     </section>
-    <section id="your-job">
+    <section id="your-job" class="control-width">
         <h3>Your Job</h3>
-        <ul class="custom-ul flex-container">
+        <ul class="custom-ul">
             <li>Feet up and enjoy the sunshine</li>
             <li>Host a garden party</li>
             <li>Play with the little ones on the lawn</li>
             <li>Have a nightcap on the deck</li>
         </ul>
     </section>
-    <section id="our-job">
+    <section id="our-job" class="control-width">
         <h3>Our Job</h3>
         <div class="card-container flex-container">
             <div class="card flex-container">
@@ -76,40 +76,39 @@
             </div>
         </div>
     </section>
-    <section id="lets-go">
+    <section id="lets-go" class="control-width">
         <h3>Let's Go</h3>
         <form action="" method="post">
-            <div class="label-input-container">
-                <label for="">
-                    First Name <span class="required">*</span>
-                </label>
-                <input type="text">
-            </div>
-            <div class="label-input-container">
-                <label for="">
-                    Last Name <span class="required">*</span>
-                </label>
-                <input type="text">
-            </div>
-            <div class="label-input-container">
-                <label for="">
-                    Email <span class="required">*</span>
-                </label>
-                <input type="text">
-            </div>
-            <div class="label-input-container">
-                <label for="">Phone</label>
-                <input type="text">
-            </div>
+            <div class="flex-container">
+                <div class="label-input-container">
+                    <label for="">
+                        First Name <span class="required">*</span>
+                    </label>
+                    <input type="text">
+                </div>
+                <div class="label-input-container">
+                    <label for="">
+                        Last Name <span class="required">*</span>
+                    </label>
+                    <input type="text">
+                </div>
+                <div class="label-input-container">
+                    <label for="">
+                        Email <span class="required">*</span>
+                    </label>
+                    <input type="text">
+                </div>
+                <div class="label-input-container">
+                    <label for="">Phone</label>
+                    <input type="text">
+                </div>
+            </div>    
             <span class="required">* Required fields</span>
             <button type="submit">Fire Away!</button>
 
         </form>
     </section>
     <footer class="flex-container">
-        <div class="flex-container">
-            <a href="#top">Back to top</a>
-        </div>
         <div id="social-media"class="flex-container">
             Visit Us:
             <ul class="custom-ul">
@@ -127,7 +126,10 @@
                 </li>
             </ul>
         </div>
-        <div class="flex-container">
+        <div id="back-to-top" class="flex-container">
+            <a href="#top">Back to top</a>
+        </div>
+        <div id="copyright" class="flex-container">
             ©2022 Jean de Villiers
         </div>
     </footer>

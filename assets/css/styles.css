@@ -65,8 +65,14 @@ section h3 {
     width: 100%;
 }
 
+.control-width {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
 section > h3 {
-    margin-bottom: 1em;
+    max-width: 5em;
+    margin: 0 auto 1em;
 }
 
 .custom-ul {
@@ -82,11 +88,7 @@ section > h3 {
 
 /* Main Header & Navigation */
 #main-header {
-    position: fixed;
-    z-index: 10;
-    background: #fafafa;
-    top: 0;
-    left: 0;
+    background: #fff;
 }
 
 #logo {
@@ -94,7 +96,7 @@ section > h3 {
 }
 
 nav {
-    width: 100%;
+    width: auto;
 }
 
 #main-menu {
@@ -106,6 +108,7 @@ nav {
 
 #main-menu li {
     list-style: none;
+    margin: 0 1em;
 }
 
 #main-menu a {
@@ -119,7 +122,6 @@ nav {
     background: #cfcfcf;
     position: relative;
     height: 150px;
-    margin-top: 140px;
 }
 
 aside {
@@ -134,16 +136,24 @@ aside {
 
 /* Your Job */
 #your-job ul {
-    
+    column-count: 2;
 }
 
 #your-job li {
-    min-width: 60%;
+    width: 33%;
     text-align: left;
+}
+
+#your-job li:first-of-type {
+    margin-top: 0;
 }
 
 
 /* Our Job */
+.card-container {
+    justify-content: space-evenly;
+}
+
 .card {
     position: relative;
     border: 2px solid;
@@ -153,7 +163,7 @@ aside {
     margin-bottom: 2em;
     min-height: 300px;
     padding: 1em;
-    width: 90%;
+    width: 33%;
     flex-direction: column;
 }
 
@@ -192,7 +202,7 @@ form {
 }
 
 .label-input-container {
-    width: 100%;
+    width: 49%;
 }
 
 label,
@@ -211,14 +221,23 @@ label:not(:first-of-type) {
 
 form button {
     display: block;
-    margin: 1em auto;
+    margin: 1em 0;
 }
 
 
 /* Footer */
+footer {
+    padding: 1em;
+}
+
 footer .flex-container {
     margin-top: 1em;
     justify-content: center;
+}
+
+footer > .flex-container {
+    width: 33%;
+    margin-top: 0;
 }
 
 #social-media,
@@ -229,10 +248,15 @@ footer .flex-container {
 
 #social-media {
     margin: 0 5px;
+    justify-content: flex-start;
 }
 
 #social-media li {
     margin: 0 0.5em;
+}
+
+#copyright {
+    justify-content: flex-end;
 }
 
 
@@ -262,7 +286,6 @@ footer .flex-container {
 
     #hero {
         max-height: 240px;
-        margin-top: 90px;
     }
 
     aside {
