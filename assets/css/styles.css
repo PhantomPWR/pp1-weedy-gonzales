@@ -353,4 +353,18 @@ footer > .flex-container {
 
 }
 
+
 /* Tablet (Portrait) */
+@media (max-width: 833.98px) and (orientation: portrait) {
+    #hero {
+        height: 340px;
+    }
+
+    aside {
+        height: 66%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
