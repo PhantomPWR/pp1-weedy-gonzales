@@ -13,10 +13,11 @@
     - Let's Go
     - Footer
     MEDIA QUERIES
-    - Phone (Portrait)
-    - Phone (Landscape)
-    - Tablet (Portrait)
+    - Laptops
     - Tablet (Landscape)
+    - Tablet (Portrait)
+    - Phone (Landscape)
+    - Phone (Portrait)
    -----------------
  */
 
@@ -145,6 +146,12 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+aside h2,
+aside p {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -276,6 +283,14 @@ footer > .flex-container {
 
 /* MEDIA QUERIES */
 
+/* Laptops */
+@media screen
+ and (min-width: 1366px) 
+ and (max-width: 1680px) {
+    #hero {
+        height: 400px;
+    }
+ }
 
 /* Tablet (Landscape) */
 @media screen
