@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Oswald&display=swap');
+
 /* Table of Contents
    -----------------
    Temporary Styles
    Reset
    Utilities
-   Typography
+   Typography & Colours
    Decoration
    STRUCTURE
     - Main Header & Navigation
@@ -25,11 +27,9 @@
 /* --- Temporary Styles (while building layout) --- */
 section,
 aside {
-    outline: 2px solid black;
+    /* outline: 2px solid black; */
 }
-img {
-    max-width: 100%;
-}
+
 
 /* --------------------------------------------- */
 
@@ -48,18 +48,74 @@ html, * {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
-/* Typography */
+/* Typography & Colours */
+body {
+    font-family:  'Fira Sans', sans-serif;
+    color: #3a3a3a;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
 h3 {
     text-align: center;
 }
 
+.logo-text {
+    line-height: 1.3rem;
+}
+
+.logo-text em {
+    font-size: 1.6rem;
+}
+
+.logo-text em:last-child {
+    font-size: 1rem;
+    letter-spacing: 0.01rem;
+}
+
+#logo:hover em {
+    font-style: normal;
+}
+
+header a,
+footer a {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+.section-heading {
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+.overlay {
+    color: #fff;
+}
+
+aside h2,
+.card h3 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.card h3 {
+    background-color: #476613;
+    color: #fff;
+}
+
 
 /* Decoration */
-section h3 {
+.section-heading  {
     border-bottom: 2px solid;
 }
 
@@ -77,6 +133,11 @@ section h3 {
 .control-width {
     max-width: 1700px;
     margin: 0 auto;
+}
+
+section,
+section.control-width {
+    margin-bottom:  50px;
 }
 
 section > h3 {
@@ -102,7 +163,23 @@ section > h3 {
 
 #logo {
     display: flex;
+    align-items:  center;
 }
+
+#logo::before {
+    background:  url('../images/sombrero.webp') no-repeat center/cover;
+    content:  '';
+    width:  50px;
+    height:  50px;
+    margin:  0 5px 0 0;
+}
+
+.logo-text {
+    display:  flex;
+    flex-direction:  column;
+    justify-content:  flex-start;
+}
+
 
 nav {
     width: auto;
@@ -136,7 +213,7 @@ nav {
 aside {
     position: absolute;
     top: 50%;
-    right: 2%;
+    right: 10%;
     bottom: 50%;
     left: auto;
     text-align: center;
@@ -146,6 +223,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 0 15px;
 }
 
 aside h2,
@@ -203,9 +281,8 @@ aside p {
 }
 
 .card h3 {
-    border: 2px solid;
-    margin: 0;
-    margin-top: -1.6em;
+    margin: -3rem 0 0 0;
+    padding: 0.5rem 0;
 }
 
 .card .overlay {
