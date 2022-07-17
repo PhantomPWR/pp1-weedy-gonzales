@@ -48,7 +48,7 @@ html, * {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -128,7 +128,7 @@ nav {
 
 /* Hero Section */
 #hero {
-    background: #cfcfcf;
+    background: url('../images/hero-image.webp') no-repeat center/cover;
     position: relative;
     height: 600px;
 }
@@ -175,10 +175,18 @@ aside p {
     justify-content: space-evenly;
 }
 
+.lawn-treatments {
+    background: url('../images/lawn-treatments.webp') no-repeat center/cover;
+}
+
+.hard-surfaces {
+    background: url('../images/hard-surfaces.webp') no-repeat center/cover;
+}
+
 .card {
     position: relative;
     border: 2px solid;
-    background: #cfcfcf;
+    background-colors: #cfcfcf;
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
