@@ -8,23 +8,74 @@
     <meta name="keywords" content="lawn care, weed control, patio cleaning, decking cleaning, driveway weed removal">
     <title>Weedy Gonzales - Make lawns green again</title>
 
-    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+    
+    <!-- Inline style, as the 404 page is standalone -->
     <style>
+        /* body background image */
         body {
             background: url(assets/images/404-background.webp) no-repeat center/cover;
             height: 100vh;
         }
-        div {
+
+        /* content container */
+        body > div {
             text-align: center;
             color: white;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            background-color: rgba(0,0,0,0.6);
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* smooth hover transition */
+        a,
+        a:hover {
+            transition: 300ms all ease-in-out;
+        }
+
+        /* style anchor to look like a button */
+        a {
+            background-color: #476613;
+            border: 2px solid #476613;
+            border-radius: 3px;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 2em auto;
+            font-weight: bold;
+            display: flex;
+            max-width: 300px;
+            letter-spacing: 1px;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        /* invert anchor colour on hover */
+        a:hover {
+            background-color: white;
+            color: #476613;
+        }
+
+        /* unicode flag icon - additional visual clue as to the button's function */
+        i {
+            text-transform: lowercase;
+            font-size: 2em;
+            font-style: normal;
         }
     </style>
 
 </head>
 <body>
+    
+    <!-- content container start -->
     <div>
-        <h1>Ah! - There you are</h1>
+        <h1>Ah, there you are!</h1>
+        <h2>Nothing of interest to you down there.</h2>
+        <a href="/" title="Back to Weedy Gonzales's home page."><i>&#x2691;</i> Let's get you back home</a>
 
     </div>
+    <!-- content container end -->
+
 </body>
 </html>
