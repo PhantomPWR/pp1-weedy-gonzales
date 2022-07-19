@@ -6,7 +6,8 @@
    Reset
    Utilities
    Typography & Colours
-   Decoration
+   DECORATION
+   - Icons
    STRUCTURE
     - Main Header & Navigation
     - Hero Section
@@ -114,10 +115,23 @@ aside h2,
 }
 
 
-/* Decoration */
+/* DECORATION */
+
+/* Icons */
+.section-heading i,
+#back-to-top i {
+    display: block;
+    text-align: center;
+}
+
+#copyright i {
+    margin-right: 5px;
+}
+
 .section-heading  {
     border-bottom: 2px solid;
 }
+
 
 
 /* STRUCTURE */
@@ -361,6 +375,7 @@ footer > .flex-container {
 #social-media li {
     margin: 0 0.5em;
 }
+
 
 #copyright {
     justify-content: flex-end;
