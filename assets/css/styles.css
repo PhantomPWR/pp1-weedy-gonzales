@@ -16,6 +16,7 @@
     - Let's Go
     - Footer
     MEDIA QUERIES
+    - Desktops
     - Laptops
     - Tablet (Landscape)
     - Tablet (Portrait)
@@ -23,16 +24,6 @@
     - Phone (Portrait)
    -----------------
  */
-
-
-/* --- Temporary Styles (while building layout) --- */
-section,
-aside {
-    /* outline: 2px solid black; */
-}
-
-
-/* --------------------------------------------- */
 
 
 
@@ -144,17 +135,31 @@ aside h2,
     width: 100%;
 }
 
+.container-inner {
+    height: 600px;
+    max-width: 1170px;
+    padding: 70px 35px;
+}
+
+header .container-inner,
+footer .container-inner {
+    height: auto;
+    padding: 35px;
+}
+
+section .container-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
 .control-width {
     max-width: 1700px;
     margin: 0 auto;
 }
 
-section,
-section.control-width {
-    margin-bottom:  50px;
-}
-
-section > h3 {
+.section-heading {
     max-width: 5em;
     margin: 0 auto 1em;
 }
@@ -211,6 +216,10 @@ nav {
     margin: 0 1em;
 }
 
+#main-menu li:last-child {
+    margin-right: 0;
+}
+
 #main-menu a {
     text-decoration: none;
 }
@@ -248,6 +257,10 @@ aside p {
 
 
 /* Your Job */
+#your-job .container-inner {
+    justify-content: flex-start;
+}
+
 #your-job ul {
     column-count: 2;
 }
@@ -356,7 +369,7 @@ footer .flex-container {
     justify-content: center;
 }
 
-footer > .flex-container {
+footer .container-inner > .flex-container {
     width: 33%;
     margin-top: 0;
 }
@@ -383,6 +396,15 @@ footer > .flex-container {
 
 
 /* MEDIA QUERIES */
+
+/* Desktops */
+@media screen
+ and (min-width: 1200px) {
+    header .container-inner,
+    footer .container-inner {
+        max-width: 100%;
+    }
+}
 
 /* Laptops */
 @media screen
@@ -431,6 +453,11 @@ and (orientation: portrait) {
 and (max-width: 844px)
 and (orientation: landscape) {
 
+    header .container-inner,
+    footer .container-inner {
+        padding: 0;
+    }
+    
     #hero {
         height: 150px;
     }
@@ -477,6 +504,28 @@ and (orientation: landscape) {
         flex-direction: column;
     }
 
+    .container-inner {
+        height: auto;
+        padding: 35px 15px;
+    }
+
+    header .container-inner,
+    footer .container-inner {
+        padding: 0;
+    }
+
+    nav {
+        width: 100%;
+    }
+    #main-menu {
+        justify-content: space-between;
+    }
+
+    #main-menu li,
+    #main-menu li:last-child {
+        margin: 0 0.5em;
+    }
+
     #hero {
         height: 200px;
     }
@@ -495,7 +544,7 @@ and (orientation: landscape) {
     }
 
     #your-job li {
-        width: 66%;
+        width: 100%;
     }
 
     .card {
@@ -506,9 +555,10 @@ and (orientation: landscape) {
         width: 100%;
     }
 
-    footer > .flex-container {
+    footer .container-inner > .flex-container {
         width: 100%;
     }
+
 
     #back-to-top {
         order: -1;

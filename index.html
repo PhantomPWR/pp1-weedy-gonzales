@@ -13,21 +13,27 @@
 
 </head>
 <body id="top">
-    <header id="main-header" class="flex-container">
-        <a id="logo" href="/">
-            <h1 class="logo-text">
-                <em>Weedy Gonzales</em>
-                <em>Make lawns green again</em>
-            </h1>
-        </a>
-        <nav>
-            <ul id="main-menu" class="flex-container">
-                <li><a href="#main-header"><i class="fa-solid fa-home"></i> Home</a></li>
-                <li><a href="#our-job"><i class="fa-solid fa-hands"></i> Services</a></li>
-                <li><a href="#lets-go"><i class="fa-solid fa-seedling"></i> Contact Us</a></li>
-            </ul>
-        </nav>
+
+    <!-- Branding & Navigation -->
+    <header id="main-header">
+        <div class="container-inner flex-container">
+            <a id="logo" href="/">
+                <h1 class="logo-text">
+                    <em>Weedy Gonzales</em>
+                    <em>Make lawns green again</em>
+                </h1>
+            </a>
+            <nav>
+                <ul id="main-menu" class="flex-container">
+                    <li><a href="#main-header"><i class="fa-solid fa-home"></i> Home</a></li>
+                    <li><a href="#our-job"><i class="fa-solid fa-hands"></i> Services</a></li>
+                    <li><a href="#lets-go"><i class="fa-solid fa-seedling"></i> Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <!-- Hero Image & Call-to-Action -->
     <section id="hero" aria-label="Hero & CTA Section">
         <aside class="cta overlay">
             <h2>Living in West Sussex?</h2>
@@ -35,105 +41,121 @@
             <button>Book Now!</button>
         </aside>
     </section>
-    <section id="your-job" class="control-width">
-        <h3 class="section-heading"><i class="fa-solid fa-martini-glass-citrus"></i></i>Your Job</h3>
-        <ul class="custom-ul">
-            <li><i class="fa-regular fa-square-check"></i> Feet up and enjoy the sunshine</li>
-            <li><i class="fa-regular fa-square-check"></i> Host a garden party</li>
-            <li><i class="fa-regular fa-square-check"></i> Play with the little ones on the lawn</li>
-            <li><i class="fa-regular fa-square-check"></i> Have a nightcap on the deck</li>
-        </ul>
-    </section>
-    <section id="our-job" class="control-width">
-        <h3 class="section-heading"><i class="fa-solid fa-hands"></i>Our Job</h3>
-        <div class="card-container flex-container">
-            <div class="card flex-container lawn-treatments">
-                <h3>Lawn Treatments</h3>
-                <div class="overlay flex-container">
-                    <div class="overlay-content">
-                        <ul class="custom-ul">
-                            <li>Weeding</li>
-                            <li>Aeration</li>
-                            <li>Scarification</li>
-                            <li>Insecticide</li>
-                            <li>Fungicide</li>
-                        </ul>
-                    </div>
-                </div>
-                <button>Book your FREE visit</button>
-            </div>
-            <div class="card flex-container hard-surfaces">
-                <h3>Hard Surfaces</h3>
-                <div class="overlay flex-container">
-                    <div class="overlay-content">
-                        <h4>Weed Control</h4>
-                        <ul class="custom-ul">
-                            <li>Paving</li>
-                            <li>Tarmac</li>
-                            <li>Graveled Areas</li>
-                        </ul>
-                        <h4>Paving & Decking</h4>
-                        <p>Algae and Mold Removal</p>
-                    </div>
-                </div>
-                <button>Book your FREE visit</button>
-            </div>
-        </div>
-    </section>
-    <section id="lets-go" class="control-width">
-        <h3 class="section-heading"><i class="fa-solid fa-seedling"></i>Let's Go</h3>
-        <form action="" method="post">
-            <div class="flex-container">
-                <div class="label-input-container">
-                    <label for="">
-                        First Name <span class="required">*</span>
-                    </label>
-                    <input type="text">
-                </div>
-                <div class="label-input-container">
-                    <label for="">
-                        Last Name <span class="required">*</span>
-                    </label>
-                    <input type="text">
-                </div>
-                <div class="label-input-container">
-                    <label for="">
-                        Email <span class="required">*</span>
-                    </label>
-                    <input type="text">
-                </div>
-                <div class="label-input-container">
-                    <label for="">Phone</label>
-                    <input type="text">
-                </div>
-            </div>    
-            <span class="required">* Required fields</span>
-            <button type="submit">Fire Away!</button>
 
-        </form>
-    </section>
-    <footer class="flex-container">
-        <div id="social-media"class="flex-container">
-            Visit Us:
+    <!-- Your Job (introduction) -->
+    <section id="your-job">
+        <div class="container-inner control-width">
+            <h3 class="section-heading"><i class="fa-solid fa-martini-glass-citrus"></i></i>Your Job</h3>
             <ul class="custom-ul">
-                <li>
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                </li>
+                <li><i class="fa-regular fa-square-check"></i> Feet up and enjoy the sunshine</li>
+                <li><i class="fa-regular fa-square-check"></i> Host a garden party</li>
+                <li><i class="fa-regular fa-square-check"></i> Play with the little ones on the lawn</li>
+                <li><i class="fa-regular fa-square-check"></i> Have a nightcap on the deck</li>
             </ul>
         </div>
-        <div id="back-to-top" class="flex-container">
-            <a href="#top"><i class="fa-solid fa-circle-chevron-up"></i>Back to top</a>
+    </section>
+
+    <!-- Our Job (services) -->
+    <section id="our-job">
+        <div class="container-inner control-width">
+            <h3 class="section-heading"><i class="fa-solid fa-hands"></i>Our Job</h3>
+            <div class="card-container flex-container">
+                <div class="card flex-container lawn-treatments">
+                    <h3>Lawn Treatments</h3>
+                    <div class="overlay flex-container">
+                        <div class="overlay-content">
+                            <ul class="custom-ul">
+                                <li>Weeding</li>
+                                <li>Aeration</li>
+                                <li>Scarification</li>
+                                <li>Insecticide</li>
+                                <li>Fungicide</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button>Book your FREE visit</button>
+                </div>
+                <div class="card flex-container hard-surfaces">
+                    <h3>Hard Surfaces</h3>
+                    <div class="overlay flex-container">
+                        <div class="overlay-content">
+                            <h4>Weed Control</h4>
+                            <ul class="custom-ul">
+                                <li>Paving</li>
+                                <li>Tarmac</li>
+                                <li>Graveled Areas</li>
+                            </ul>
+                            <h4>Paving & Decking</h4>
+                            <p>Algae and Mold Removal</p>
+                        </div>
+                    </div>
+                    <button>Book your FREE visit</button>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- Let's Go (Contact Us) -->
+    <section id="lets-go">
+        <div class="container-inner control-width">
+            <h3 class="section-heading"><i class="fa-solid fa-seedling"></i>Let's Go</h3>
+            <form action="" method="post">
+                <div class="flex-container">
+                    <div class="label-input-container">
+                        <label for="">
+                            First Name <span class="required">*</span>
+                        </label>
+                        <input type="text">
+                    </div>
+                    <div class="label-input-container">
+                        <label for="">
+                            Last Name <span class="required">*</span>
+                        </label>
+                        <input type="text">
+                    </div>
+                    <div class="label-input-container">
+                        <label for="">
+                            Email <span class="required">*</span>
+                        </label>
+                        <input type="text">
+                    </div>
+                    <div class="label-input-container">
+                        <label for="">Phone</label>
+                        <input type="text">
+                    </div>
+                </div>    
+                <span class="required">* Required fields</span>
+                <button type="submit">Fire Away!</button>
+
+            </form>
         </div>
-        <div id="copyright" class="flex-container"><i class="fa-regular fa-copyright"></i>2022 Jean de Villiers
+    </section>
+
+    <!-- Social Links, Back-to-Top & Copyright -->
+    <footer>
+        <div class="container-inner flex-container">
+            <div id="social-media"class="flex-container">
+                Visit Us:
+                <ul class="custom-ul">
+                    <li>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="back-to-top" class="flex-container">
+                <a href="#top"><i class="fa-solid fa-circle-chevron-up"></i>Back to top</a>
+            </div>
+            <div id="copyright" class="flex-container"><i class="fa-regular fa-copyright"></i>2022 Jean de Villiers
+            </div>
         </div>
     </footer>
     <!-- load fontawesome script -->
