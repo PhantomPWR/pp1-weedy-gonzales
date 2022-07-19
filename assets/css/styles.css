@@ -28,7 +28,12 @@
 
 
 /* Reset */
+html {
+    font-size: 62.5%; /* Sets font size to 10px so 1 REM = 10px */
+    }
+
 body {
+    font-size: 1.6rem; /* Resets the normal font size for everything to 16px so it's readable. */
     margin: 0;
     padding: 0;
 }
@@ -62,16 +67,25 @@ h3 {
     text-align: center;
 }
 
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
 .logo-text {
-    line-height: 1.3rem;
+    line-height: 2rem;
 }
 
 .logo-text em {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
 }
 
 .logo-text em:last-child {
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 0.01rem;
 }
 
@@ -86,7 +100,7 @@ footer a {
 }
 
 .section-heading {
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: 4px;
 }
 
@@ -96,13 +110,22 @@ footer a {
 
 aside h2,
 .card h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 2px;
 }
 
 .card h3 {
     background-color: #476613;
     color: #fff;
+}
+
+#your-job li {
+    font-size: 2.5rem;
+}
+
+
+.required {
+    font-size: 1.3rem;
 }
 
 
@@ -144,7 +167,7 @@ aside h2,
 header .container-inner,
 footer .container-inner {
     height: auto;
-    padding: 35px;
+    padding: 0 35px;
 }
 
 section .container-inner {
@@ -162,16 +185,6 @@ section .container-inner {
 .section-heading {
     max-width: 5em;
     margin: 0 auto 1em;
-}
-
-.custom-ul {
-    margin: 0;
-    padding: 0;
-}
-
-.custom-ul li {
-    list-style: none;
-    margin: .25em auto;
 }
 
 
@@ -212,18 +225,12 @@ nav {
 }
 
 #main-menu li {
-    list-style: none;
     margin: 0 1em;
 }
 
 #main-menu li:last-child {
     margin-right: 0;
 }
-
-#main-menu a {
-    text-decoration: none;
-}
-
 
 
 /* Hero Section */
@@ -263,11 +270,15 @@ aside p {
 
 #your-job ul {
     column-count: 2;
+    margin: 35px auto 0;
+    padding: 0;
+    max-width: 1170px;
 }
 
 #your-job li {
-    width: 45%;
     text-align: left;
+    list-style: none;
+    margin: 0.25em auto 1em;
 }
 
 #your-job li:first-of-type {
@@ -327,6 +338,10 @@ aside p {
     margin: 0.3em 0 0;
 }
 
+.card li {
+    list-style: none;
+}
+
 
 /* Let's Go */
 form {
@@ -347,10 +362,6 @@ input {
 
 label:not(:first-of-type) {
     margin-top: 1em;
-}
-
-.required {
-    font-size: 0.8rem;
 }
 
 form button {
@@ -455,7 +466,7 @@ and (orientation: landscape) {
 
     header .container-inner,
     footer .container-inner {
-        padding: 0;
+        padding: 0 35px;
     }
     
     #hero {
