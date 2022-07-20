@@ -229,11 +229,11 @@ nav {
 }
 
 #main-menu li {
-    margin: 0 1em;
+    margin: 0;
 }
 
-#main-menu li:last-child {
-    margin-right: 0;
+#main-menu li:nth-child(2) {
+    margin: 0 30px;
 }
 
 
@@ -534,11 +534,13 @@ and (orientation: landscape) {
     }
     #main-menu {
         justify-content: space-between;
+        margin: 0 0 15px;
+        padding: 0 15px;
     }
 
-    #main-menu li,
-    #main-menu li:last-child {
-        margin: 0 0.5em;
+    #main-menu i {
+        display: block;
+        text-align: center;
     }
 
     #hero {
