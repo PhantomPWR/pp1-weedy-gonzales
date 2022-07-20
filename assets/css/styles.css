@@ -99,6 +99,10 @@ footer a {
     text-decoration: none;
 }
 
+nav a {
+    font-size: 1.8rem;
+}
+
 .section-heading {
     font-size: 4rem;
     letter-spacing: 4px;
