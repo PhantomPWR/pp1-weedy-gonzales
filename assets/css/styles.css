@@ -2,13 +2,14 @@
 
 /* Table of Contents
    -----------------
-   Temporary Styles
-   Reset
-   Utilities
-   Typography & Colours
+   RESET
+   UTILITIES
+   TYPOGRAPHY & COLOURS
    DECORATION
    - Icons
-   STRUCTURE
+   - Headings
+   - Buttons
+   SITE STRUCTURE
     - Main Header & Navigation
     - Hero Section
     - Your Job
@@ -27,7 +28,7 @@
 
 
 
-/* Reset */
+/* -- RESET -- */
 html {
     font-size: 62.5%; /* Sets font size to 10px so 1 REM = 10px */
     }
@@ -39,17 +40,30 @@ body {
 }
 
 
-/* Utilities */
+/* -- UTILITIES -- */
 html, * {
-    scroll-behavior: smooth!important;
+    scroll-behavior: smooth!important; /* Pure CSS smooth scrolling */
+}
+
+a,
+a:hover,
+button,
+button:hover {
+    transition: all 300ms ease-in-out;
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(73, 122, 0, 0.9);
+}
+
+button {
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto;
 }
 
 
-/* Typography & Colours */
+/* -- TYPOGRAPHY & COLOURS -- */
 body {
     font-family:  'Fira Sans', sans-serif;
     color: #3a3a3a;
@@ -114,13 +128,17 @@ nav a {
 
 aside h2,
 .card h3 {
-    font-size: 2.5rem;
     letter-spacing: 2px;
+}
+
+aside h2 {
+    font-size: 3.2rem;
 }
 
 .card h3 {
     background-color: #476613;
     color: #fff;
+    font-size: 2.2rem;
 }
 
 #your-job li {
@@ -132,8 +150,19 @@ aside h2,
     font-size: 1.3rem;
 }
 
+button {
+    background-color: #ed8a00;
+    color: #fff;
+    font-size: 2rem;
+}
 
-/* DECORATION */
+button:hover {
+    background-color: #fff;
+    color: #ed8a00;
+}
+
+
+/* -- DECORATION -- */
 
 /* Icons */
 .section-heading i,
@@ -146,13 +175,19 @@ aside h2,
     margin-right: 5px;
 }
 
+/* Headings */
 .section-heading  {
     border-bottom: 2px solid;
 }
 
+/* Buttons */
+button {
+    border: 2px solid #ed8a00;
+}
 
 
-/* STRUCTURE */
+
+/* -- SITE STRUCTURE -- */
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -408,6 +443,8 @@ footer .container-inner > .flex-container {
 #copyright {
     justify-content: flex-end;
 }
+
+
 
 
 /* MEDIA QUERIES */
