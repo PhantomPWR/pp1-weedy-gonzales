@@ -57,6 +57,7 @@ button:hover,
     transition: all 300ms ease-in-out;
 }
 
+nav a:hover i,
 footer a:hover i {
     transform: rotateY(360deg);
 }
