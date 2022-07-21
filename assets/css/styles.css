@@ -8,7 +8,8 @@
    DECORATION
    - Icons
    - Headings
-   - Buttons
+   - Form Elements & Buttons
+   - Cards
    SITE STRUCTURE
     - Main Header & Navigation
     - Hero Section
@@ -53,11 +54,10 @@ button:hover {
 }
 
 .overlay {
-    background-color: rgba(73, 122, 0, 0.9);
+    background-color: rgba(26, 33, 33, 0.8);
 }
 
 button {
-    border-radius: 3px;
     padding: 10px 15px;
     margin: 0 auto;
 }
@@ -67,6 +67,7 @@ button {
 body {
     font-family:  'Fira Sans', sans-serif;
     color: #3a3a3a;
+    letter-spacing: 0.03em;
 }
 
 h1,
@@ -120,15 +121,23 @@ nav a {
     font-size: 1.8rem;
 }
 
+#your-job {
+    background-color: #FBEEDF;
+}
+
 .section-heading {
+    color: #4d7f14;
     font-size: 4rem;
     letter-spacing: 4px;
 }
 
-
 .section-intro,
 #your-job li {
     font-size: 2rem;
+}
+
+#your-job li i {
+    font-size: 1.2em;
 }
 
 .section-intro {
@@ -149,14 +158,30 @@ aside h2 {
     font-size: 3.2rem;
 }
 
+#our-job {
+    background-color: #F2F3F6;
+}
+
 .card h3 {
-    background-color: #476613;
+    background-color: #4d7f14;
+    font-size: 3rem;
+}
+
+.card h3,
+#lets-go,
+#lets-go .section-heading {
     color: #fff;
-    font-size: 2.2rem;
+}
+
+#lets-go {
+    background-color: #5b9718;
+}
+
+form {
+    font-size: 2rem;
 }
 
 .required {
-    color: firebrick;
     font-size: 1.3rem;
 }
 
@@ -201,9 +226,39 @@ footer {
     border-bottom: 2px solid;
 }
 
-/* Buttons */
+/*  Form Elements & Buttons */
+button,
+input {
+    border-radius: 3px;
+}
+
 button {
     border: 2px solid #ed8a00;
+}
+
+input {
+    border: 2px solid #fff;
+}
+
+input:hover {
+    border-color: #ed8a00;
+}
+
+/* Cards */
+.card {
+    box-shadow: inset 0px 0px 15px 5px rgb(0 0 0 / 80%);
+}
+
+/* Background Image Overlay */
+.card::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    content: '';
+    z-index: 0;
 }
 
 
@@ -219,7 +274,6 @@ button {
 }
 
 .container-inner {
-    height: 600px;
     max-width: 1170px;
     padding: 70px 35px;
 }
@@ -234,12 +288,17 @@ section .container-inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-sizing: border-box;
 }
 
 .control-width {
     max-width: 1700px;
     margin: 0 auto;
+}
+
+#your-job ul.control-width,
+.card-container,
+form {
+    margin-top: 70px;
 }
 
 .section-heading {
@@ -256,6 +315,9 @@ form input {
     margin-top: 5px;
 }
 
+#back-to-top i {
+    margin-bottom: 1rem;
+}
 
 
 
@@ -335,13 +397,16 @@ aside p {
 
 
 /* Your Job */
+#your-job {
+    background-color: #FBF6F0;
+}
+
 #your-job .container-inner {
     justify-content: flex-start;
 }
 
 #your-job ul {
     column-count: 2;
-    margin-top: 35px;
     padding: 0;
 }
 
@@ -371,7 +436,6 @@ aside p {
 
 .card {
     position: relative;
-    border: 2px solid;
     background-color: #cfcfcf;
     text-align: center;
     margin-top: 2em;
@@ -385,17 +449,18 @@ aside p {
 .card h3,
 .card .overlay,
 .card button {
+    position: relative;
     width: 90%;
 }
 
 .card h3 {
-    margin: -3rem 0 0 0;
-    padding: 0.5rem 0;
+    margin: -5rem 0 0 0;
+    padding: 1rem 0;
 }
 
 .card .overlay {
     min-height: 250px;
-    margin: 1em auto;
+    margin: 3.5rem auto;
     justify-content: center;
     flex-direction: column;
 }
