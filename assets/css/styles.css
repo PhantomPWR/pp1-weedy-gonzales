@@ -122,6 +122,17 @@ nav a {
     letter-spacing: 4px;
 }
 
+
+.section-intro,
+#your-job li {
+    font-size: 2rem;
+}
+
+.section-intro {
+    line-height: 3rem;
+    text-align: center;
+}
+
 .overlay {
     color: #fff;
 }
@@ -141,12 +152,8 @@ aside h2 {
     font-size: 2.2rem;
 }
 
-#your-job li {
-    font-size: 2.5rem;
-}
-
-
 .required {
+    color: firebrick;
     font-size: 1.3rem;
 }
 
@@ -154,12 +161,15 @@ button {
     background-color: #ed8a00;
     color: #fff;
     font-size: 2rem;
+    letter-spacing: 0.14rem;
 }
 
 button:hover {
     background-color: #fff;
     color: #ed8a00;
 }
+
+
 
 
 /* -- DECORATION -- */
@@ -225,6 +235,17 @@ section .container-inner {
     max-width: 5em;
     margin: 0 auto 1em;
 }
+
+.label-input-container {
+    margin-top: 20px;
+}
+
+form input {
+    height: 35px;
+    margin-top: 5px;
+}
+
+
 
 
 /* Main Header & Navigation */
@@ -309,9 +330,8 @@ aside p {
 
 #your-job ul {
     column-count: 2;
-    margin: 35px auto 0;
+    margin-top: 35px;
     padding: 0;
-    max-width: 1170px;
 }
 
 #your-job li {
@@ -385,7 +405,7 @@ aside p {
 /* Let's Go */
 form {
     margin: 1.6em auto 0;
-    width: 90%;
+    max-width: 90%;
 }
 
 .label-input-container {
@@ -605,7 +625,9 @@ and (orientation: landscape) {
         width: 90%;
     }
 
+    form,
     .label-input-container {
+        max-width: 100%;
         width: 100%;
     }
 
