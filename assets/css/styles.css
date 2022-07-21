@@ -109,8 +109,11 @@ li {
 
 header a,
 footer a {
-    color: #3a3a3a;
     text-decoration: none;
+}
+
+header a {
+    color: #3a3a3a;
 }
 
 nav a {
@@ -169,6 +172,14 @@ button:hover {
     color: #ed8a00;
 }
 
+footer,
+footer a {
+    color: #fff;
+}
+
+footer {
+    background-color: #363531;
+}
 
 
 
@@ -435,7 +446,6 @@ footer {
 }
 
 footer .flex-container {
-    margin-top: 1em;
     justify-content: center;
 }
 
