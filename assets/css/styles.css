@@ -341,7 +341,7 @@ aside p {
 .card {
     position: relative;
     border: 2px solid;
-    background-colors: #cfcfcf;
+    background-color: #cfcfcf;
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
