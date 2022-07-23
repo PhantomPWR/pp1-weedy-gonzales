@@ -77,9 +77,15 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+dt {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+}
+
+dt {
+    font-size: 1.8rem;
+    letter-spacing: 0.08em;
 }
 
 h3 {
@@ -473,12 +479,26 @@ aside p {
 .card .overlay {
     min-height: 250px;
     margin: 3.5rem auto;
+    padding: 0 15px;
     justify-content: center;
     flex-direction: column;
 }
 
-.card h4 {
-    margin-bottom: 0;
+.card dt {
+    margin: 0 0 0.2em;
+}
+
+.card dt:not(:first-of-type) {
+    margin-top: 1em;
+}
+
+.card dd {
+    margin: 0;
+}
+
+.card ul {
+    margin: 0;
+    padding: 0;
 }
 
 .card .overlay-content p {
@@ -562,6 +582,10 @@ footer .container-inner > .flex-container {
     header .container-inner,
     footer .container-inner {
         max-width: 100%;
+    }
+
+    .card .overlay {
+        padding: 0 85px;
     }
 
     form {
