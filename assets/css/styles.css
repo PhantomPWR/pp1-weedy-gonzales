@@ -278,7 +278,7 @@ input:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(77, 127, 20, 0.4);
     content: '';
     z-index: 0;
 }
@@ -448,23 +448,23 @@ aside p {
     justify-content: space-evenly;
 }
 
-.lawn-treatments {
+#lawn-treatments {
     background: url('../images/lawn-treatments.webp') no-repeat center/cover;
 }
 
-.hard-surfaces {
+#hard-surfaces {
     background: url('../images/hard-surfaces.webp') no-repeat center/cover;
 }
 
 .card {
     position: relative;
-    background-color: #cfcfcf;
+    background-color: #5B9718;
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
     min-height: 410px;
-    padding: 1em;
-    width: 33%;
+    padding: 2em 0;
+    width: 30%;
     flex-direction: column;
 }
 
@@ -476,16 +476,14 @@ aside p {
 }
 
 .card h3 {
-    margin: -5rem auto 0;
-    padding: 1rem 0;
+    margin: -6rem auto 0;
+    padding: 0.5rem 0;
 }
 
 .card .overlay {
-    min-height: 250px;
-    margin: 3.5rem auto;
-    padding: 0 15px;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    flex: 1;
 }
 
 .card dt {
