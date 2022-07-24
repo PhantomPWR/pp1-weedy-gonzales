@@ -101,23 +101,6 @@ li {
     list-style: none;
 }
 
-.logo-text {
-    line-height: 2rem;
-}
-
-.logo-text em {
-    font-size: 2.4rem;
-}
-
-.logo-text em:last-child {
-    font-size: 1.5rem;
-    letter-spacing: 0.01rem;
-}
-
-#logo:hover em {
-    font-style: normal;
-}
-
 header a,
 footer a {
     text-decoration: none;
@@ -352,14 +335,8 @@ form input {
     background:  url('../images/logo.webp') no-repeat center/contain;
     width:  250px;
     height:  70px;
+    margin: 1rem 0;
 }
-
-.logo-text {
-    display:  flex;
-    flex-direction:  column;
-    justify-content:  flex-start;
-}
-
 
 nav {
     width: auto;
@@ -589,7 +566,7 @@ footer .container-inner > .flex-container {
     }
 
     form {
-        width: 1320px;
+        width: 1240px;
     }
 
 }
@@ -600,6 +577,10 @@ footer .container-inner > .flex-container {
  and (max-width: 1680px) {
     #hero {
         height: 400px;
+    }
+
+    .card {
+        width: 45%;
     }
  }
 
@@ -633,6 +614,10 @@ and (orientation: portrait) {
     #your-job li {
         width: 60%;
     }
+
+    .card {
+        width: 45%
+    }
 }
 
 
@@ -643,7 +628,16 @@ and (orientation: landscape) {
 
     header .container-inner,
     footer .container-inner {
-        padding: 0 35px;
+        padding: 0 10px;
+    }
+
+    #logo {
+        height: 50px;
+        width: 30%;
+    }
+
+    nav a {
+        font-size: 1.6rem;
     }
     
     #hero {
@@ -651,8 +645,21 @@ and (orientation: landscape) {
     }
 
     aside {
-        width: 33%;
+        width: 43%;
         height: 130px;
+    }
+
+    aside h2 {
+        font-size: 2rem;
+    }
+
+    aside p {
+        font-size: 1.4rem;
+    }
+
+    aside button {
+        font-size: 1.5rem;
+        padding: 5px 10px;
     }
 
     #your-job li {
@@ -700,6 +707,10 @@ and (orientation: landscape) {
     header .container-inner,
     footer .container-inner {
         padding: 0;
+    }
+
+    #logo {
+        height: 50px;
     }
 
     nav {
