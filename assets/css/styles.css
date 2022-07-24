@@ -267,6 +267,10 @@ input:hover {
     box-shadow: inset 0px 0px 15px 5px rgb(0 0 0 / 80%);
 }
 
+.card dt {
+    border-bottom: 1px solid rgba(255,255,255,0.75);
+}
+
 /* Background Image Overlay */
 .card::before {
     position: absolute;
@@ -458,7 +462,7 @@ aside p {
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
-    min-height: 300px;
+    min-height: 410px;
     padding: 1em;
     width: 33%;
     flex-direction: column;
@@ -472,7 +476,7 @@ aside p {
 }
 
 .card h3 {
-    margin: -5rem 0 0 0;
+    margin: -5rem auto 0;
     padding: 1rem 0;
 }
 
@@ -485,7 +489,7 @@ aside p {
 }
 
 .card dt {
-    margin: 0 0 0.2em;
+    margin: 0 0 0.5em;
 }
 
 .card dt:not(:first-of-type) {
@@ -499,6 +503,10 @@ aside p {
 .card ul {
     margin: 0;
     padding: 0;
+}
+
+.card .overlay-content {
+    width: 100%;
 }
 
 .card .overlay-content p {
