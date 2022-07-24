@@ -487,7 +487,8 @@ aside p {
 }
 
 .card dt {
-    margin: 0 0 0.5em;
+    margin: 0 auto 0.5em;
+    width: fit-content;
 }
 
 .card dt:not(:first-of-type) {
