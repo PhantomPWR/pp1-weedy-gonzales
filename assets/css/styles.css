@@ -638,8 +638,8 @@ footer .container-inner > .flex-container {
 /* MEDIA QUERIES */
 
 /* Desktops */
-@media screen
- and (min-width: 1200px) {
+@media (min-width: 1200px) {
+
     header .container-inner,
     footer .container-inner {
         max-width: 100%;
@@ -656,9 +656,9 @@ footer .container-inner > .flex-container {
 }
 
 /* Laptops */
-@media screen
- and (min-width: 1280px) 
- and (max-width: 1680px) {
+@media (min-width: 1280px) 
+   and (max-width: 1680px) {
+
     #hero {
         height: 400px;
     }
@@ -669,9 +669,9 @@ footer .container-inner > .flex-container {
  }
 
 /* Tablet (Landscape) */
-@media screen
- and (min-width: 1024px) 
- and (max-width: 1366px) {
+@media (min-width: 1024px) 
+   and (max-width: 1366px) {
+
     #hero {
         height: 350px;
     }
@@ -680,12 +680,13 @@ footer .container-inner > .flex-container {
         width: 25%;
         height: 60%;
     }
+
 }
 
 /* Tablet (Portrait) */
-@media screen 
-and (max-width: 1024px)
-and (orientation: portrait) {
+@media (max-width: 1024px)
+   and (orientation: portrait) {
+
     #hero {
         height: 350px;
     }
@@ -707,9 +708,8 @@ and (orientation: portrait) {
 
 
 /* Phone (Landscape) */
-@media screen 
-and (max-width: 844px)
-and (orientation: landscape) {
+@media (max-width: 844px)
+   and (orientation: landscape) {
 
     header .container-inner,
     footer .container-inner {
@@ -779,7 +779,8 @@ and (orientation: landscape) {
 }
 
 /* Phone (Portrait) */
-@media screen and (max-width: 414px) {
+@media (max-width: 414px) {
+    
     .flex-container {
         flex-direction: column;
     }
