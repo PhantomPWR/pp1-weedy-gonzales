@@ -9,7 +9,7 @@
     <title>Weedy Gonzales - Make lawns green again</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" media="screen" href="assets/css/styles.css">
 
 </head>
 <body id="top">
@@ -61,7 +61,7 @@
             <p class="section-intro control-width">Let us loose on your lawn to put all the nasties in their place!</p>
 
             <!-- Cards -->
-            <div class="card-container flex-container">
+            <div aria-labelledby="lawn-treatments hard-surfaces" class="card-container flex-container">
 
                 <!-- Card Content -->
                 <div id="lawn-treatments" class="card flex-container">
@@ -122,7 +122,7 @@
                         <label for="first-name">
                             First Name <span class="required">*</span>
                         </label>
-                        <input type="text" name="first_name" id="first-name">
+                        <input type="text" name="first_name" id="first-name" placeholder="Enter your first name (required)">
                     </div>
 
                     <!-- Form field group - Last Name -->
@@ -130,7 +130,7 @@
                         <label for="last-name">
                             Last Name <span class="required">*</span>
                         </label>
-                        <input type="text" name="last_name" id="last-name">
+                        <input type="text" name="last_name" id="last-name" placeholder="Enter your last name (required)">
                     </div>
 
                     <!-- Form field group - Email Address -->
@@ -138,13 +138,13 @@
                         <label for="email">
                             Email <span class="required">*</span>
                         </label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" placeholder="Enter your email (required)">
                     </div>
 
                     <!-- Form field group - Phone Number -->
                     <div class="label-input-container">
                         <label for="phone">Phone</label>
-                        <input type="phone" name="phone" id="phone">
+                        <input type="phone" name="phone" id="phone" placeholder="Enter your phone number (optional)">
                     </div>
                 </div>
                     
@@ -194,7 +194,7 @@
     <!-- Modal Form -->
     <div id="modal">
         <div class="modal-dialog">
-            <a href="#/" title="Close Pop-up Form" aria-label="Use this button to close the pop-up form" class="close-modal"><i class="fa-regular fa-circle-xmark"></i></a>
+            <a href="#/" title="Close Pop-up Form" aria-label="Use this button to close the pop-up form" class="close-modal" aria-hidden="true"><i class="fa-regular fa-circle-xmark"></i></a>
             <div class="modal-content">
                 <p class="section-intro control-width">For <em>free</em> advice, or to fix your unruly lawn, just fill in the form.</p>
                 <p class="section-intro control-width">We'll be in touch sharpish!</p>
@@ -208,29 +208,29 @@
                             <label for="first-name">
                                 First Name <span class="required">*</span>
                             </label>
-                            <input type="text" name="first_name" id="first-name">
+                            <input type="text" name="first_name" id="first-name" placeholder="Enter your first name (required)">
                         </div>
-
+    
                         <!-- Form field group - Last Name -->
                         <div class="label-input-container">
                             <label for="last-name">
                                 Last Name <span class="required">*</span>
                             </label>
-                            <input type="text" name="last_name" id="last-name">
+                            <input type="text" name="last_name" id="last-name" placeholder="Enter your last name (required)">
                         </div>
-
+    
                         <!-- Form field group - Email Address -->
                         <div class="label-input-container">
                             <label for="email">
                                 Email <span class="required">*</span>
                             </label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" placeholder="Enter your email (required)">
                         </div>
-
+    
                         <!-- Form field group - Phone Number -->
                         <div class="label-input-container">
                             <label for="phone">Phone</label>
-                            <input type="phone" name="phone" id="phone">
+                            <input type="phone" name="phone" id="phone" placeholder="Enter your phone number (optional)">
                         </div>
                     </div>
                         
