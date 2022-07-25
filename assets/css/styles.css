@@ -74,6 +74,12 @@ button,
 }
 
 /* Modal */
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 #modal {
     display: none;
     position: fixed;
@@ -84,7 +90,9 @@ button,
     background-color: rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
+    animation: fade-in 0.5s;
 }
+
 
 #modal:target {
     display: flex;
@@ -94,6 +102,10 @@ button,
     background-color: #5b9718;
     max-width: 600px;
     position: relative;
+}
+
+.modal-content {
+    padding: 3rem 0 0;
 }
 
 .close-modal {
@@ -110,13 +122,22 @@ button,
     opacity: 1;
 }
 
-.modal-dialog label,
-.modal-dialog .required {
+.modal-content p,
+.modal-content label,
+.modal-content .required {
     color: #fff;
 }
 
-.modal-dialog label,
-.modal-dialog button {
+.modal-content p {
+    width: 90%;
+}
+
+.modal-content form {
+    margin-top: 0.5em;
+}
+
+.modal-content label,
+.modal-content button {
     font-size: 1.6rem;
 }
 
@@ -682,11 +703,6 @@ and (orientation: portrait) {
         width: 45%
     }
 
-    .modal-dialog {
-        width: 80%;
-        padding: 1rem;
-    }
-
 }
 
 
@@ -859,6 +875,31 @@ and (orientation: landscape) {
 
     #copyright {
         flex-direction: row;
+    }
+
+    .modal-dialog {
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .modal-content p {
+        font-size: 1.5rem;
+    }
+
+    .modal-content form {
+        margin-top: 0;
+    }
+
+    .modal-content .label-input-container {
+        margin-top: 10px;
+    }
+
+    .modal-content label {
+        font-size: 1.5rem;
+    }
+
+    .modal-content input {
+        height: 25px;
     }
 
 
