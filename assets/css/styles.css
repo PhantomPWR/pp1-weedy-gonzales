@@ -260,10 +260,9 @@ form {
 
 button,
 .button {
-    background-color: #ed5000;
-    color: #fff;
+    background-color: #ffa41c;
+    color: #242424;
     font-size: 2rem;
-    letter-spacing: 0.14rem;
     font-weight: 700;
 }
 
@@ -319,7 +318,7 @@ input {
 
 button,
 .button {
-    border: 2px solid #ed5000;
+    border: 2px solid #ffa41c;
 }
 
 input {
@@ -327,7 +326,7 @@ input {
 }
 
 input:hover {
-    border-color: #ed5000;
+    border-color: #ffa41c;
 }
 
 /* Cards */
