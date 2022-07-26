@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald&display=swap');
 
 /* Table of Contents
    -----------------
@@ -64,7 +64,7 @@ button:hover,
 }
 
 .overlay {
-    background-color: rgba(26, 33, 33, 0.8);
+    background-color: rgba(59, 97, 15, 0.95);
 }
 
 button,
@@ -99,7 +99,7 @@ button,
 }
 
 .modal-dialog {
-    background-color: #5b9718;
+    background-color: #3B610F;
     max-width: 600px;
     position: relative;
 }
@@ -143,8 +143,10 @@ button,
 
 
 /* -- TYPOGRAPHY & COLOURS -- */
-body {
-    font-family:  'Fira Sans', sans-serif;
+body,
+button,
+.button {
+    font-family:  'Lato', sans-serif;
     color: #3a3a3a;
     letter-spacing: 0.03em;
 }
@@ -192,10 +194,11 @@ header a {
 
 nav a {
     font-size: 1.8rem;
+    font-weight: 700;
 }
 
 nav a:hover {
-    color: #4d7f14;
+    color: #3B610F;
 }
 
 #your-job {
@@ -203,7 +206,7 @@ nav a:hover {
 }
 
 .section-heading {
-    color: #4d7f14;
+    color: #3B610F;
     font-size: 4rem;
     letter-spacing: 4px;
 }
@@ -236,7 +239,7 @@ aside h2 {
 }
 
 .card h3 {
-    background-color: #4d7f14;
+    background-color: #3B610F;
     font-size: 3rem;
 }
 
@@ -247,7 +250,7 @@ aside h2 {
 }
 
 #lets-go {
-    background-color: #5b9718;
+    background-color: #3B610F;
 }
 
 form {
@@ -512,7 +515,7 @@ aside p {
 
 .card {
     position: relative;
-    background-color: #5B9718;
+    background-color: #3B610F;
     text-align: center;
     margin-top: 2em;
     margin-bottom: 2em;
