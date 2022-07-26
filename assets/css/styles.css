@@ -194,10 +194,11 @@ header a {
 
 nav a {
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 400;
 }
 
-nav a:hover {
+nav a:hover,
+.section-heading {
     color: #3B610F;
 }
 
@@ -206,14 +207,8 @@ nav a:hover {
 }
 
 .section-heading {
-    color: #3B610F;
     font-size: 4rem;
     letter-spacing: 4px;
-}
-
-.section-intro,
-#your-job li {
-    font-size: 2rem;
 }
 
 #your-job li i {
@@ -223,10 +218,6 @@ nav a:hover {
 .section-intro {
     line-height: 3rem;
     text-align: center;
-}
-
-.overlay {
-    color: #fff;
 }
 
 aside h2,
@@ -239,22 +230,34 @@ aside h2 {
 }
 
 .card h3 {
-    background-color: #3B610F;
     font-size: 3rem;
 }
 
+.section-intro,
+#your-job li,
+aside h2,
+button,
+.button,
+form {
+    font-size: 2rem;
+}
+
+.overlay,
 .card h3,
 #lets-go,
-#lets-go .section-heading {
+#lets-go .section-heading,
+footer,
+footer a {
     color: #fff;
+}
+
+.card h3,
+footer {
+    background-color: #363531;
 }
 
 #lets-go {
     background-color: #3B610F;
-}
-
-form {
-    font-size: 2rem;
 }
 
 .required {
@@ -265,23 +268,13 @@ button,
 .button {
     background-color: #ffa41c;
     color: #242424;
-    font-size: 2rem;
     font-weight: 700;
 }
 
 button:hover,
 .button:hover {
     background-color: #fff;
-    color: #ed5000;
-}
-
-footer,
-footer a {
-    color: #fff;
-}
-
-footer {
-    background-color: #363531;
+    color: #242424;
 }
 
 footer a:hover {
@@ -575,6 +568,7 @@ aside p {
 
 .card .button {
     padding: 10px 0;
+    margin-top: 1.5rem;
 }
 
 
@@ -739,10 +733,6 @@ footer .container-inner > .flex-container {
     aside {
         width: 43%;
         height: 130px;
-    }
-
-    aside h2 {
-        font-size: 2rem;
     }
 
     aside p {
