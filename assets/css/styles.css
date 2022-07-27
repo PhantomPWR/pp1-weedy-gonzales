@@ -223,7 +223,7 @@ aside h2,
 }
 
 aside h2 {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
 }
 
 .card h3 {
@@ -232,7 +232,6 @@ aside h2 {
 
 .section-intro,
 #your-job li,
-aside h2,
 button,
 .button,
 form {
