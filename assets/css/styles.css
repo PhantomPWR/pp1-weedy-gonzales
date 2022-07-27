@@ -188,10 +188,6 @@ header a {
     color: #3a3a3a;
 }
 
-#logo {
-    font-size: 0;
-}
-
 nav a {
     font-size: 1.8rem;
     font-weight: 400;
@@ -416,6 +412,11 @@ form input {
     width:  250px;
     height:  70px;
     margin: 1rem 0;
+}
+
+#logo h1 {
+    position: fixed;
+    left: -9999em;
 }
 
 nav {
@@ -768,8 +769,12 @@ footer .container-inner > .flex-container {
         width: 100%;
     }
 
-    footer > .flex-container {
-        width: 30%;
+    #social-media ul {
+        margin-top: 5px;
+    }
+
+    #social-media li:first-child {
+        margin-left: 0;
     }
 
 
