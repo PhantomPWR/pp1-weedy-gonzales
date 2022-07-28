@@ -43,6 +43,10 @@ body {
     padding: 0;
 }
 
+* {
+    box-sizing: border-box; /* Include element border in width calculations */
+}
+
 
 /* -- UTILITIES -- */
 
@@ -360,7 +364,6 @@ input:hover {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    box-sizing: border-box;
     width: 100%;
 }
 
@@ -746,12 +749,12 @@ footer .container-inner > .flex-container {
     }
     
     #hero {
-        height: 150px;
+        height: 260px;
     }
 
     aside {
         width: 43%;
-        height: 130px;
+        height: 220px;
     }
 
     aside p {
@@ -770,6 +773,14 @@ footer .container-inner > .flex-container {
     .card,
     .label-input-container {
         width: 45%;
+    }
+
+    .card {
+        min-height: 420px;
+    }
+
+    .card h3 {
+        font-size: 2rem;
     }
 
     form {
