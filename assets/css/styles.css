@@ -28,6 +28,8 @@
     - Phone Large (Landscape)
     - Phone Small (Landscape)
     - Phone (Portrait)
+    - Phone X-Small (Landscape)
+    - Phone X-Small (Portrait)
    -----------------
  */
 
@@ -394,7 +396,7 @@ section .container-inner {
     margin: 0 auto;
 }
 
-#your-job ul.control-width,
+#your-job ul,
 .card-container,
 form {
     margin-top: 70px;
@@ -903,6 +905,7 @@ footer .container-inner > .flex-container {
 
     #your-job ul {
         column-count: unset;
+        padding-left: 2.7rem;
     }
 
     #your-job li {
@@ -912,7 +915,8 @@ footer .container-inner > .flex-container {
     }
 
     #your-job li i {
-        margin-left: -1.2em;
+        left: -1.2em;
+        top: 0.2rem;
     }
 
     .card {
@@ -969,7 +973,27 @@ footer .container-inner > .flex-container {
         height: 25px;
     }
 
+}
+
+
+/* Phone X-Small (Landscape) */
+@media (max-width: 568px) {
+
+    #social-media li:first-child {
+        margin-left: 0;
+    }
+
+    #copyright {
+        flex-direction: column;
+    }
 
 }
 
+
+/* Phone X-Small (Portrait) */
+@media (max-width: 375px) {
+
+    
+
+}
 
