@@ -831,7 +831,7 @@ footer .container-inner > .flex-container {
     }
 
     #hero {
-        height: 200px;
+        height: 280px;
     }
 
     aside {
@@ -840,7 +840,7 @@ footer .container-inner > .flex-container {
         bottom: 0;
         left: 0;
         width: 66%;
-        height: 180px;
+        height: 260px;
     }
 
     aside h2 {
