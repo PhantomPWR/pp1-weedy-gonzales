@@ -25,7 +25,8 @@
     - Laptops
     - Tablet (Landscape)
     - Tablet (Portrait)
-    - Phone (Landscape)
+    - Phone Large (Landscape)
+    - Phone Small (Landscape)
     - Phone (Portrait)
    -----------------
  */
@@ -508,6 +509,14 @@ aside p {
     text-align: left;
     list-style: none;
     margin: 0.25em auto 1em;
+    padding-left: 2.7rem;
+    position: relative;
+}
+
+#your-job li i {
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
 }
 
 #your-job li:first-of-type {
@@ -730,7 +739,32 @@ footer .container-inner > .flex-container {
 }
 
 
-/* Phone (Landscape) */
+/* Phone Large (Landscape) */
+@media (max-width: 896px)
+   and (orientation: landscape) {
+
+    #hero {
+        height: 260px;
+    }
+
+    aside {
+        height: 220px;
+        width: 33%;
+    }
+
+    .card {
+        min-height: 420px;
+    }
+
+    .card h3 {
+        font-size: 2.2rem;
+    }
+
+
+}
+
+
+/* Phone Small (Landscape) */
 @media (max-width: 844px)
    and (orientation: landscape) {
 
@@ -873,7 +907,7 @@ footer .container-inner > .flex-container {
 
     #your-job li {
         line-height: 3rem;
-        padding-left: 1.2em;
+        padding-left: 0;
         width: 100%;
     }
 
