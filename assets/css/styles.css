@@ -29,7 +29,6 @@
     - Phone Small (Landscape)
     - Phone (Portrait)
     - Phone X-Small (Landscape)
-    - Phone X-Small (Portrait)
    -----------------
  */
 
@@ -838,11 +837,6 @@ footer .container-inner > .flex-container {
         margin-top: 5px;
     }
 
-    #social-media li:first-child {
-        margin-left: 0;
-    }
-
-
 }
 
 /* Phone (Portrait) */
@@ -977,7 +971,8 @@ footer .container-inner > .flex-container {
 
 
 /* Phone X-Small (Landscape) */
-@media (max-width: 568px) {
+@media (max-width: 568px)
+   and (orientation: landscape) {
 
     #social-media li:first-child {
         margin-left: 0;
@@ -987,13 +982,12 @@ footer .container-inner > .flex-container {
         flex-direction: column;
     }
 
-}
-
-
-/* Phone X-Small (Portrait) */
-@media (max-width: 375px) {
-
-    
+    #social-media span,
+    #copyright i {
+        display: block;
+        margin-bottom: 1rem;
+    }
 
 }
+
 
