@@ -812,7 +812,8 @@ footer .container-inner > .flex-container {
     }
 
     #logo {
-        height: 50px;
+        height: 40px;
+        margin: 2rem auto;
     }
 
     nav {
