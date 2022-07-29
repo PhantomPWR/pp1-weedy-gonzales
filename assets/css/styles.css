@@ -802,7 +802,8 @@ footer .container-inner > .flex-container {
     }
 
     #your-job li {
-        min-width: 60%;
+        width: 100%;
+        font-size: 2.2rem;
     }
 
     .card,
