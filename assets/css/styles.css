@@ -150,6 +150,17 @@ button,
 }
 
 /* Section Navigation */
+.section-nav-container {
+    margin: 0 auto;
+    width: 66%;
+}
+
+.nav-link {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
 [id*="-nav"] {
     visibility: hidden;
 }
@@ -195,17 +206,14 @@ li {
     list-style: none;
 }
 
-header a,
+nav a,
 footer a,
 .button {
     text-decoration: none;
 }
 
-header a {
-    color: #3a3a3a;
-}
-
 nav a {
+    color: #3a3a3a;
     font-size: 1.8rem;
     font-weight: 400;
 }
@@ -224,7 +232,7 @@ nav a:hover,
     letter-spacing: 4px;
 }
 
-#your-job li i {
+.checklist i {
     font-size: 1.2em;
 }
 
@@ -247,7 +255,7 @@ aside h2 {
 }
 
 .section-intro,
-#your-job li,
+.checklist li,
 button,
 .button,
 form {
@@ -405,7 +413,7 @@ section .container-inner {
     margin: 0 auto;
 }
 
-#your-job ul,
+.checklist,
 .card-container,
 form {
     margin-top: 70px;
@@ -511,12 +519,12 @@ aside p {
     justify-content: flex-start;
 }
 
-#your-job ul {
+.checklist {
     column-count: 2;
     padding: 0;
 }
 
-#your-job li {
+.checklist li {
     text-align: left;
     list-style: none;
     margin: 0.25em auto 1em;
@@ -524,13 +532,13 @@ aside p {
     position: relative;
 }
 
-#your-job li i {
+.checklist i {
     font-size: 1.2em;
     position: absolute;
     left: 0;
 }
 
-#your-job li:first-of-type {
+.checklist li:first-of-type {
     margin-top: 0;
 }
 
@@ -739,7 +747,7 @@ footer .container-inner > .flex-container {
         width: 30%;
     }
 
-    #your-job li {
+    .checklist li {
         width: 60%;
     }
 
@@ -811,7 +819,7 @@ footer .container-inner > .flex-container {
         padding: 5px 10px;
     }
 
-    #your-job li {
+    .checklist li {
         width: 100%;
         font-size: 2.2rem;
     }
@@ -872,10 +880,13 @@ footer .container-inner > .flex-container {
         margin: 2rem auto;
     }
 
-    nav {
+    nav,
+    .section-nav-container {
         width: 100%;
     }
-    #main-menu {
+    #main-menu,
+    [id*="-nav"] ul {
+        flex-direction: row;
         justify-content: space-between;
         margin: 0 0 15px;
         padding: 0 15px;
@@ -908,18 +919,18 @@ footer .container-inner > .flex-container {
         padding: 5px 10px;
     }
 
-    #your-job ul {
+    .checklist {
         column-count: unset;
         padding-left: 2.7rem;
     }
 
-    #your-job li {
+    .checklist li {
         line-height: 3rem;
         padding-left: 0;
         width: 100%;
     }
 
-    #your-job li i {
+    .checklist i {
         left: -1.2em;
         top: 0.2rem;
     }
