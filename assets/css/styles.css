@@ -6,6 +6,7 @@
    UTILITIES
    - General
    - Modal
+   - Section Navigation
    TYPOGRAPHY & COLOURS
    DECORATION
    - Main Navigation
@@ -146,6 +147,15 @@ button,
 .modal-content label,
 .modal-content button {
     font-size: 1.6rem;
+}
+
+/* Section Navigation */
+[id*="-nav"] {
+    visibility: hidden;
+}
+
+[id*="-nav"]:target {
+    visibility: visible;
 }
 
 
