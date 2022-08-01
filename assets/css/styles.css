@@ -44,7 +44,7 @@ html {
 body {
     font-size: 1.6rem; /* Resets the normal font size for everything to 16px so it's readable. */
     margin: 0;
-    padding: 90px 0 0;
+    padding: 0;
 }
 
 * {
@@ -55,7 +55,7 @@ body {
 /* -- UTILITIES -- */
 
 /* General */
-html, * {
+html {
     scroll-behavior: smooth!important; /* Pure CSS smooth scrolling */
 }
 
@@ -91,6 +91,11 @@ button,
     z-index: 1;
     height: 90px;
     width: 100%;
+}
+
+body,
+section:target {
+    padding-top: 90px; /* Leave space below fixed header */
 }
 
 
@@ -162,24 +167,49 @@ button,
     font-size: 1.6rem;
 }
 
+
 /* Mobile Navigation */
-.section-nav-container {
-    margin: 0 auto;
-    width: 66%;
+.mobile-nav-container {
+    position: relative;
 }
 
-.nav-link {
-    margin: 0 auto;
-    display: block;
+.nav-button {
     text-align: center;
+    background-color: #fff;
+    color: #3a3a3a;
+    padding: 0.5rem;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
 }
 
-[id*="-nav"] {
-    visibility: hidden;
+#mobile-nav,
+#mobile-nav:target {
+    transition: 1s right ease-in-out;
 }
 
-[id*="-nav"]:target {
-    visibility: visible;
+#mobile-nav {
+    position: absolute;
+    right: -435px;
+    top: -40px;
+    display: block;
+    padding: 15px;
+    height: 130px;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    box-shadow: 0 7px 7px 0 rgb(0 0 0 / 25%);
+}
+
+#mobile-nav:target {
+    right: -35px;
+}
+
+#mobile-nav li:nth-child(2) {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -220,18 +250,26 @@ li {
 }
 
 nav a,
+.nav a,
 footer a,
 .button {
     text-decoration: none;
 }
 
-nav a {
+nav,
+.nav {
+    background-color: #fff;
+}
+
+nav a,
+.nav a {
     color: #3a3a3a;
     font-size: 1.8rem;
     font-weight: 400;
 }
 
 nav a:hover,
+.nav a:hover,
 .section-heading {
     color: #3B610F;
 }
@@ -454,7 +492,8 @@ form input {
 
 /* Main Header & Navigation */
 #main-header {
-    background: #fff;
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 25%);
 }
 
 #logo {
@@ -893,8 +932,7 @@ footer .container-inner > .flex-container {
         margin: 2rem auto;
     }
 
-    nav,
-    .section-nav-container {
+    nav {
         width: 100%;
     }
     #main-menu,
