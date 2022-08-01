@@ -55,7 +55,7 @@ body {
 /* -- UTILITIES -- */
 
 /* General */
-html {
+html, * {
     scroll-behavior: smooth!important; /* Pure CSS smooth scrolling */
 }
 
@@ -170,10 +170,12 @@ section:target {
 
 /* Mobile Navigation */
 .mobile-nav-container {
+    display: none;
     position: relative;
 }
 
-.nav-button {
+.nav-button,
+.close-menu {
     text-align: center;
     background-color: #fff;
     color: #3a3a3a;
@@ -194,8 +196,8 @@ section:target {
     right: -435px;
     top: -40px;
     display: block;
-    padding: 15px;
-    height: 130px;
+    padding: 0;
+    height: 210px;
     width: 200px;
     overflow: hidden;
     text-align: center;
@@ -204,12 +206,21 @@ section:target {
 }
 
 #mobile-nav:target {
-    right: -35px;
+    right: -26px;
 }
 
-#mobile-nav li:nth-child(2) {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+#mobile-nav li {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#mobile-nav li:first-child {
+    text-align: right;
+    padding-right: 35px;
+}
+
+.close-menu {
+    text-align: right;
 }
 
 
@@ -844,6 +855,14 @@ footer .container-inner > .flex-container {
         padding: 0 10px;
     }
 
+    body, section:target {
+        padding-top: 70px;
+    }
+
+    #main-header {
+        height: 70px;
+    }
+
     #logo {
         height: 50px;
         width: 30%;
@@ -927,25 +946,26 @@ footer .container-inner > .flex-container {
         padding: 0;
     }
 
+    #main-header .container-inner {
+        flex-direction: row;
+    }
+
     #logo {
         height: 40px;
-        margin: 2rem auto;
+        margin: 2rem 0;
+    }
+
+    .mobile-nav-container {
+        display: block;
+        margin-right: 25px;
+    }
+
+    #mobile-nav {
+        top: -16px;
     }
 
     nav {
-        width: 100%;
-    }
-    #main-menu,
-    [id*="-nav"] ul {
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 0 0 15px;
-        padding: 0 15px;
-    }
-
-    #main-menu i {
-        display: block;
-        text-align: center;
+        display: none;
     }
 
     #hero {
