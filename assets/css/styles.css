@@ -818,11 +818,24 @@ footer .container-inner > .flex-container {
         width: 45%
     }
 
+    .mobile-nav-container {
+        display: block;
+        margin-right: 25px;
+    }
+
+    #mobile-nav {
+        top: -16px;
+    }
+
+    nav {
+        display: none;
+    }
+
 }
 
 
 /* Phone Large (Landscape) */
-@media (max-width: 896px)
+@media (max-width: 914px)
    and (orientation: landscape) {
 
     #hero {
@@ -953,19 +966,6 @@ footer .container-inner > .flex-container {
     #logo {
         height: 40px;
         margin: 2rem 0;
-    }
-
-    .mobile-nav-container {
-        display: block;
-        margin-right: 25px;
-    }
-
-    #mobile-nav {
-        top: -16px;
-    }
-
-    nav {
-        display: none;
     }
 
     #hero {
