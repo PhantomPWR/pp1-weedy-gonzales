@@ -451,23 +451,24 @@ input:hover {
 
 .container-inner {
     max-width: 1170px;
-    padding: 70px 35px;
-}
-
-header .container-inner,
-footer .container-inner {
-    height: auto;
-    padding: 0 35px;
 }
 
 section {
     max-width: 100vw;
+    padding: 35px 0;
 }
 
 section .container-inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 35px;
+}
+
+header .container-inner,
+footer .container-inner {
+    height: auto;
+    padding: 0 35px;
 }
 
 .control-width {
