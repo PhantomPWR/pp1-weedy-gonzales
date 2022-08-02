@@ -82,31 +82,38 @@ The aim of this website is to make potential customers aware of the service and 
 
 The website is designed to guide the visitor towards getting in contact, using the shortest route possible - with ample opportunity to do so along the way. The aim is to give the visitor a pleasant experience, whether they use a desktop computer, tablet, mobile device or screen reader. There should also be feedback from the interface, including hover effects on links and buttons.
 
+<br>
+
 ## Wireframes
 
 The website wireframes were created using Balsamiq.
+<br>
+### ***Desktop***
+-----
 
-### Desktop
 ![Desktop](assets/readme/wireframes/01-desktop.png)
 
-### Tablet
+<br>
 
-***Tablet Top***
+### ***Tablet***
+-----
+Tablet Top
 ![Tablet Top](assets/readme/wireframes/02-tablet-top.png)
 
-***Tablet Bottom***
+Tablet Bottom
 ![Tablet Bottom](assets/readme/wireframes/03-tablet-bottom.png)
 
+<br>
 
-### Phone
-
-***Phone Top***
+### ***Phone***
+-----
+Phone Top
 ![Phone Top](assets/readme/wireframes/04-phone-top.png)
 
-***Phone Middle***
+Phone Middle
 ![Phone Middle](assets/readme/wireframes/05-phone-middle.png)
 
-***Phone Bottom***
+Phone Bottom
 ![Phone Bottom](assets/readme/wireframes/06-phone-bottom.png)
 
 ## Surface
