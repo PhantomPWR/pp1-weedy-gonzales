@@ -2,9 +2,9 @@
 
 # Weedy Gonzales - Make lawns green again
 
-## User-Centric Frontend Development Milestone Project.
+## Diploma in Full Stack Software Development - Portfolio Project 1
 
-![Mockup](md_images/mockup.png)
+![Mockup](assets/readme/device-mockups.png)
 
 Weedy Gonzales is a fictional lawn care and weed control company, operating in West Sussex, England. The site will target homeowners and tenants who are looking for lawn care services and advice.
 
@@ -17,7 +17,7 @@ The visitor's journey is laid out in a concise, lighthearted fashion, inspired b
 3. How Weedy Gonzales can help them achieve the outcome (Our Job)
 4. An opportunity to take action and get in contact (Let's Go)
 
-Not all visitors might decide to take action only at the end of the journey, hence the Booking buttons in the Hero and Our Job sections.
+Not all visitors might decide to take action only at the end of the journey, hence the Booking buttons in each section.
 
 
 ## [View the live website in github pages](https://phantompwr.github.io/pp1-weedy-gonzales/)
@@ -147,7 +147,11 @@ ___
 The website consists of 1 main page containing 4 sections, and a 404 error page.
 
 
-The website has below features:
+The features for the site are as follows:
+
+## Main Header
+
+
 
 ## Navigation bar
 
