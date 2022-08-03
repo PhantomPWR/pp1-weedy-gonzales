@@ -88,11 +88,13 @@ The website is designed to guide the visitor towards getting in contact, using t
 
 The website wireframes were created using Balsamiq.
 The tablet and phone wireframes show the different screens when scrolled.
+
 <br>
+
 ### ***Desktop***
 ----
 
-![Desktop](assets/readme/wireframes/01-desktop-resized.png)
+![Desktop](assets/readme/wireframes/01-desktop.png)
 
 <br>
 
@@ -105,6 +107,7 @@ The tablet and phone wireframes show the different screens when scrolled.
 ### ***Phone***
 ----
 ![Phone](assets/readme/wireframes/03-phone.png)
+
 <br>
 
 ## Surface
@@ -138,6 +141,7 @@ ___
 The website consists of 1 main page containing 4 sections, and a 404 error page. The features of the site are as follows:
 
 ## Main Header
+
 <br>
 
 ### ***Desktop/Landscape Header***
@@ -146,18 +150,23 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 ![Desktop/Landscape Header](assets/readme/features/header-nav/01-main-header-desktop.png)
 
 <br>
+
 * The header is fixed to the page top, for easy access to navigation
 * On the left is the company logo, which also doubles as a "home" link
 * On the right is the navigation bar
+
 <br>
 
 ### ***Mobile Portrait Header***
 -----
 
 ![Mobile Portrait Header](assets/readme/features/header-nav/02-main-header-mobile.png)
+
 <br>
+
 * Because the header is fixed at the top, it inevitably occupies valuable screen real estate. As a result, the navigation links will wrap on smaller-width devices/orientations. This in turn, would increase the height of the header and reduce the visible content even more
 * Replacing the navigation links with a menu button(hamburger) means the height of the header can be kept to a minimum
+
 <br>
 
 ## Navigation
@@ -171,14 +180,18 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 
 
 <br>
+<br>
 
 ### ***Desktop/Landscape Navigation***
 -----
 
 ![Desktop/Landscape Navigation](assets/readme/features/header-nav/03-navigation-menu-desktop.png)
+
 <br>
+
 * Each navigation link has an icon, which matches the heading icon of the relevant section
 * Link hover action is confirmed by adding a bottom border and changing the link colour
+
 <br>
 <br>
 
@@ -186,7 +199,9 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 -----
 
 ![Mobile Portrait Navigation](assets/readme/features/header-nav/04-navigation-menu-mobile.png)
+
 <br>
+
 * The menu button(hamburger), activates a menu which slides in from the right of the screen
 * Tapping on a link is, once again, confirmed by the appearance of a bottom border and a change in colour
 
@@ -195,7 +210,8 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 ## Hero Section
 -----
 
-![Mobile Portrait Navigation](assets/readme/features/hero-section/hero-cta.png)
+![Hero & CTA](assets/readme/features/hero-section/hero-cta.png)
+
 <br>
 <br>
 
@@ -210,9 +226,19 @@ The image was specifically chosen to showcase the result of a healthy lawn, i.e.
 
 ### Call to Action
 * The call to action clearly states its purpose, what is on offer and a button encouraging the visitor to take action
-* The "Book Now!" button opens the contact form in a modal pop-up, offering the visitor to give their contact details on the spot
+* The "Book Now!" button opens the contact form in a modal window, offering the visitor the opportunity to provide their contact details on the spot
 
+<br>
+<br>
 
+## Modal Window
+![Modal Window](assets/readme/features/modal-window.png)
+
+In order to encourage the visitor to provide contact details, the site also features a modal window, containing a contact form.
+* The modal window is unobtrusive and initiated by the visitor
+* All cta buttons open modal window <======== CONTINUE HERE & ELABORATE
+
+<br>
 -----
 
 ## Footer
