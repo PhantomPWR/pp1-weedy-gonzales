@@ -97,23 +97,23 @@ The website wireframes were created using Balsamiq.
 
 ### ***Tablet***
 -----
-Tablet Top
+Tablet Top <br>
 ![Tablet Top](assets/readme/wireframes/02-tablet-top.png)
 
-Tablet Bottom
+Tablet Bottom <br>
 ![Tablet Bottom](assets/readme/wireframes/03-tablet-bottom.png)
 
 <br>
 
 ### ***Phone***
 -----
-Phone Top
+Phone Top <br>
 ![Phone Top](assets/readme/wireframes/04-phone-top.png)
 
-Phone Middle
+Phone Middle <br>
 ![Phone Middle](assets/readme/wireframes/05-phone-middle.png)
 
-Phone Bottom
+Phone Bottom <br>
 ![Phone Bottom](assets/readme/wireframes/06-phone-bottom.png)
 
 ## Surface
@@ -147,11 +147,25 @@ ___
 The website consists of 1 main page containing 4 sections, and a 404 error page.
 
 
-The features for the site are as follows:
+The features of the site are as follows:
 
 ## Main Header
+<br>
 
+### ***Desktop/Landscape Header***
+-----
 
+![Desktop/Landscape Header](assets/readme/features/header-nav/01-main-header-desktop.png)
+<br>
+Description here...
+<br>
+
+### ***Mobile Portrait Header***
+-----
+
+![Mobile Portrait Header](assets/readme/features/header-nav/02-main-header-mobile.png)
+<br>
+Description here...
 
 ## Navigation bar
 
@@ -165,6 +179,24 @@ The features for the site are as follows:
         * Offer
         * Contact
 
+<br>
+
+### ***Desktop/Landscape Navigation***
+-----
+
+![Desktop/Landscape Navigation](assets/readme/features/header-nav/03-navigation-menu-desktop.png)
+<br>
+Description here...
+<br>
+
+### ***Mobile Portrait Navigation***
+-----
+
+![Mobile Portrait Navigation](assets/readme/features/header-nav/04-navigation-menu-mobile.png)
+<br>
+Description here...
+
+<br>
 ## Timetable
 
 * Each site has a timetable on the bottom. Customers can find classes times here.
