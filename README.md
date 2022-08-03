@@ -144,6 +144,7 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 -----
 
 ![Desktop/Landscape Header](assets/readme/features/header-nav/01-main-header-desktop.png)
+
 <br>
 * The header is fixed to the page top, for easy access to navigation
 * On the left is the company logo, which also doubles as a "home" link
@@ -156,20 +157,18 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 ![Mobile Portrait Header](assets/readme/features/header-nav/02-main-header-mobile.png)
 <br>
 * Because the header is fixed at the top, it inevitably occupies valuable screen real estate. As a result, the navigation links will wrap on smaller-width devices/orientations. This in turn, would increase the height of the header and reduce the visible content even more
-* Replacing the navigation links with a menu button means the height of the header can be kept to a minimum
+* Replacing the navigation links with a menu button(hamburger) means the height of the header can be kept to a minimum
 <br>
 
-## Navigation bar
+## Navigation
 
-* #### The navigation bar is located at the top of the page. I chose not to
-* Navigation scheme:
+* The navigation consists of links to the different page sections
+* The appearance and behaviour of the navigation links, is consistent across devices
+* The navigation links are:
+    * Your Job - links to the introduction section
+    * Our Job - links to the section containing the services on offer
+    * Let's Go! - links to the contact form
 
-    * On left side there is a logo. It can be used as navigation link to the main page.
-    * On right side there are four links or burger menu. It contains:
-        * Home
-        * About me
-        * Offer
-        * Contact
 
 <br>
 
@@ -178,20 +177,26 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 
 ![Desktop/Landscape Navigation](assets/readme/features/header-nav/03-navigation-menu-desktop.png)
 <br>
-Description here...
+* Each navigation link has an icon, which matches the heading icon of the relevant section
+* Link hover action is confirmed by adding a bottom border and changing the link colour
 <br>
-
+<br>
 ### ***Mobile Portrait Navigation***
 -----
 
 ![Mobile Portrait Navigation](assets/readme/features/header-nav/04-navigation-menu-mobile.png)
 <br>
-Description here...
+* The menu button(hamburger), activates a menu which slides in from the right of the screen
+* Tapping on a link is, once again, confirmed by the appearance of a bottom border and a change in colour
 
 <br>
-## Timetable
 
-* Each site has a timetable on the bottom. Customers can find classes times here.
+## Hero Image
+-----
+
+![Mobile Portrait Navigation](assets/readme/features/hero-section/hero-cta.png)
+<br>
+* Description here...
 
 ## Footer
 
