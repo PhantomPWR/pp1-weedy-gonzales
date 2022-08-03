@@ -97,24 +97,14 @@ The website wireframes were created using Balsamiq.
 
 ### ***Tablet***
 -----
-Tablet Top <br>
-![Tablet Top](assets/readme/wireframes/02-tablet-top.png)
-
-Tablet Bottom <br>
-![Tablet Bottom](assets/readme/wireframes/03-tablet-bottom.png)
+![Tablet](assets/readme/wireframes/02-tablet.png)
 
 <br>
 
 ### ***Phone***
 -----
-Phone Top <br>
-![Phone Top](assets/readme/wireframes/04-phone-top.png)
-
-Phone Middle <br>
-![Phone Middle](assets/readme/wireframes/05-phone-middle.png)
-
-Phone Bottom <br>
-![Phone Bottom](assets/readme/wireframes/06-phone-bottom.png)
+![Phone](assets/readme/wireframes/03-phone.png)
+<br>
 
 ## Surface
 
