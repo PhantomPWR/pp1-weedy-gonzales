@@ -373,12 +373,27 @@ footer i {
 
 /* Main Navigation */
 
-nav a {
+nav a,
+.nav a {
     border-bottom: 2px solid transparent;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus,
+.nav a:focus {
     border-color: #3B610F;
+}
+
+footer a {
+    border: 2px solid transparent;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+footer a:hover,
+footer a:focus{
+    opacity: 0.5;
+    border-color: #fff;
 }
 
 /* Icons */
