@@ -10,6 +10,7 @@
    TYPOGRAPHY & COLOURS
    DECORATION
    - Main Navigation
+   - Footer Links
    - Mobile Navigation
    - Icons
    - Headings
@@ -359,8 +360,9 @@ button:hover,
     color: #242424;
 }
 
-footer a:hover {
-    opacity: 0.5;
+footer a:hover,
+footer a:focus {
+    border-color: #fff;
 }
 
 footer i {
@@ -372,7 +374,6 @@ footer i {
 /* -- DECORATION -- */
 
 /* Main Navigation */
-
 nav a,
 .nav a {
     border-bottom: 2px solid transparent;
@@ -384,6 +385,8 @@ nav a:focus,
     border-color: #3B610F;
 }
 
+
+/* Footer Links */
 footer a {
     border: 2px solid transparent;
     border-radius: 3px;
@@ -391,9 +394,8 @@ footer a {
 }
 
 footer a:hover,
-footer a:focus{
+footer a:focus {
     opacity: 0.5;
-    border-color: #fff;
 }
 
 /* Icons */
