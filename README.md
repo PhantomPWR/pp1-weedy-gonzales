@@ -181,6 +181,7 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 * Link hover action is confirmed by adding a bottom border and changing the link colour
 <br>
 <br>
+
 ### ***Mobile Portrait Navigation***
 -----
 
@@ -191,12 +192,28 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 
 <br>
 
-## Hero Image
+## Hero Section
 -----
 
 ![Mobile Portrait Navigation](assets/readme/features/hero-section/hero-cta.png)
 <br>
-* Description here...
+<br>
+
+### Hero Image
+Below the header, is the hero section, containing:
+
+* an image of a healthy, well-kept lawn
+* clean, weed-free paving
+* a pleasant, relaxing seating area - overlooking the garden
+
+The image was specifically chosen to showcase the result of a healthy lawn, i.e. relaxing while enjoying your garden. Coupled with the company logo and motto/strapline at the top left, the perspective and angle of the image lead the visitor's eye towards the call to action on the right-hand side.
+
+### Call to Action
+* The call to action clearly states its purpose, what is on offer and a button encouraging the visitor to take action
+* The "Book Now!" button opens the contact form in a modal pop-up, offering the visitor to give their contact details on the spot
+
+
+-----
 
 ## Footer
 
