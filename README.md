@@ -87,22 +87,23 @@ The website is designed to guide the visitor towards getting in contact, using t
 ## Wireframes
 
 The website wireframes were created using Balsamiq.
+The tablet and phone wireframes show the different screens when scrolled.
 <br>
 ### ***Desktop***
------
+----
 
-![Desktop](assets/readme/wireframes/01-desktop.png)
+![Desktop](assets/readme/wireframes/01-desktop-resized.png)
 
 <br>
 
 ### ***Tablet***
------
+----
 ![Tablet](assets/readme/wireframes/02-tablet.png)
 
 <br>
 
 ### ***Phone***
------
+----
 ![Phone](assets/readme/wireframes/03-phone.png)
 <br>
 
@@ -134,10 +135,7 @@ Main colours used for the website:
 ___
 # Features
 
-The website consists of 1 main page containing 4 sections, and a 404 error page.
-
-
-The features of the site are as follows:
+The website consists of 1 main page containing 4 sections, and a 404 error page. The features of the site are as follows:
 
 ## Main Header
 <br>
@@ -147,7 +145,9 @@ The features of the site are as follows:
 
 ![Desktop/Landscape Header](assets/readme/features/header-nav/01-main-header-desktop.png)
 <br>
-Description here...
+* The header is fixed to the page top, for easy access to navigation
+* On the left is the company logo, which also doubles as a "home" link
+* On the right is the navigation bar
 <br>
 
 ### ***Mobile Portrait Header***
@@ -155,7 +155,9 @@ Description here...
 
 ![Mobile Portrait Header](assets/readme/features/header-nav/02-main-header-mobile.png)
 <br>
-Description here...
+* Because the header is fixed at the top, it inevitably occupies valuable screen real estate. As a result, the navigation links will wrap on smaller-width devices/orientations. This in turn, would increase the height of the header and reduce the visible content even more
+* Replacing the navigation links with a menu button means the height of the header can be kept to a minimum
+<br>
 
 ## Navigation bar
 
