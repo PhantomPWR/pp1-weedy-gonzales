@@ -338,7 +338,7 @@ ____
 
 ![Let's Go!](assets/readme/features/content-sections/03-lets-go.png)
 
-    * The heading, paragraph and form button all urge the visitor to take action - again, without using the usual pushy sales language
+* The heading, paragraph and form button all urge the visitor to take action - again, without using the usual pushy sales language
 
 <br>
 
@@ -369,6 +369,7 @@ After extensive research, I've come to the conclusion that the following impleme
 ### Content
 * A calendar booking system to view availability and book a home visit
 * A blog containing lawn care and weed control tips
+* A live chat function for handling enquiries and offering advice
 * A page showing before & after photos, as well as customer feedback
 
 
@@ -451,44 +452,32 @@ ___
 
 ### As a business owner:
 
-- *** === REPLACE === *** I would like to present myself and my offer on the website clearly to potential customers.
-    > Name, photo of the instructor and top skills are on each page in portfolio section. Career path section at home page provides more details.
+- I want to introduce my services to potential customers
+    > An overview of available services is presented in the "Our Job" section
 
-- *** === REPLACE === *** I need to make sure that my current and new customers will find a professional help with their diets, personal or group trainings.
-    > Customers can achieve this by contacting through contact form. They can choose interesting topic and describe their needs in a message box.
-
-- *** === REPLACE === *** I want my customers to be able to learn how to use my website intuitively and easily.
-    > Each site has a fixed navigation menu and is accessible at all times. All content is presented with minimalistic approach.
-
-- *** === REPLACE === *** I would like to build and maintain relationship with potential and current customers.
-    > Customers are able to find a links to social channels at the bottom of each page. Alternatively they can contact by email or contact form.
+- I would like to encourage potential and existing customers to book home visits
+    > In addition to the contact form in the "Let's Go" section, buttons to access the modal contact form are present in every section of the page
 
 
 ### As a new customer:
-- *** === REPLACE === *** wish to find information about personal trainer and check her/his qualifications.
-    > User can see essential description on the home page. More information can be find in about page.
+- I wish to find information about lawn care and weed control
+    > Once again, essential information is available in the "Our Job" section, along with an invitation to get in touch
 
-- *** === REPLACE === *** I would like to contact with a diet coach to change my eating habits and start healthy lifestyle.
-    > User can find a contact form in contact page. Alternatively can use an email. Email address if located in a footer the bottom of each page.
+- I would like advice on my specific needs
+    > As a minimum viable product, the website offers this opportunity via a response to providing contact details
 
-- *** === REPLACE === *** I want to join in a fitness group with professional trainer, to find motivation and spend time actively.
-    > Brief class description of fitness group classes can be find on the home page below career path section. Offer site provides more detailed description. Frome there user can click contact us button and send a message to the traier.
 
 ### As a returning customer:
-- *** === REPLACE === *** I need to contact my diet coach to reschedule my meeting.
-    > User can find a contact form in contact page. Alternatively can use social channels or email.
-
-- *** === REPLACE === *** I would like to check timetable for current days and times for a group trainings.
-    > Each site has time table at the bottom of the page.
-
-- *** === REPLACE === *** I want to show my friend a location of the fitness studio where we can join for a semi private personal training.
-    > Each page contains location information in a footer. Users are able to find a location map in contact page.
+- I would like to find advice and tips on keeping my lawn healthy
+- I would like to know how to keep my outdoor spaces clean and weed-free
+    > In this first version of the website, all enquiries are handled by the contact form
+    > Future iterations will include blog articles containing hints & tips, and a live chat function for handling questions and enquiries
 
 
 ---
 ## Issues found during site development
 
-* #### Shortcut icon (favicon) didn't appear on deployed site
+* #### Shortcut icon (favicon) didn't appear on the deployed site
 ![testing_issue_1](testing/testing_issue_1.png)
 
 The shortcut icon displayed correctly, when viewing the site locally. However, the icon didn't appear on GitHub Pages.
