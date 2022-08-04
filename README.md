@@ -136,7 +136,12 @@ Main colours used for the website:
 
 [Back to Table of contents](#table-of-contents)
 ___
+
+<br>
+<br>
+
 # Features
+
 
 The website consists of 1 main page containing 4 sections, and a 404 error page. The features of the site are as follows:
 
@@ -145,7 +150,7 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 <br>
 
 ### ***Desktop/Landscape Header***
------
+----
 
 ![Desktop/Landscape Header](assets/readme/features/header-nav/01-main-header-desktop.png)
 
@@ -158,7 +163,7 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 <br>
 
 ### ***Mobile Portrait Header***
------
+----
 
 ![Mobile Portrait Header](assets/readme/features/header-nav/02-main-header-mobile.png)
 
@@ -174,16 +179,16 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 * The navigation consists of links to the different page sections
 * The appearance and behaviour of the navigation links, is consistent across devices
 * The navigation links are:
-    * Your Job - links to the introduction section
-    * Our Job - links to the section containing the services on offer
-    * Let's Go! - links to the contact form
+    * Your Job - scrolls to the introduction/benefits section
+    * Our Job - scrolls to the section containing the services on offer
+    * Let's Go! - scrolls to the contact form
 
 
 <br>
 <br>
 
 ### ***Desktop/Landscape Navigation***
------
+----
 
 ![Desktop/Landscape Navigation](assets/readme/features/header-nav/03-navigation-menu-desktop.png)
 
@@ -196,7 +201,7 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 <br>
 
 ### ***Mobile Portrait Navigation***
------
+----
 
 ![Mobile Portrait Navigation](assets/readme/features/header-nav/04-navigation-menu-mobile.png)
 
@@ -208,7 +213,7 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 <br>
 
 ## Hero Section
------
+----
 
 ![Hero & CTA](assets/readme/features/hero-section/hero-cta.png)
 
@@ -239,43 +244,82 @@ In order to encourage the visitor to provide contact details, the site also feat
 * All cta buttons open modal window <======== CONTINUE HERE & ELABORATE
 
 <br>
------
+
+----
+
 
 ## Footer
+![Footer](assets/readme/features/footer/01-footer.png)
 
-* Footer is consistent on all pages. It has contact details on left side and social links on right side.
-Each link will open in a separate tab in a browser.
 
-## Home
+* Description...
 
-* ### Portfolio section
+<br>
 
-    * Portfolio includes an image on the left side and profession information on the right side.
+### ***Social Media Links***
+----
+
+![Social Media Links](assets/readme/features/footer/02-social-media.png)
+
+
+* Description...
+
+<br>
+
+### ***Back to Top Button***
+----
+
+![Back to Top Button](assets/readme/features/footer/03-back-to-top.png)
+
+* Description...
+
+<br>
+
+
+## Content Sections
+____
+
+<br>
+
+
+### Your Job (Benefits)
+----
+
+![Your Job](assets/readme/features/content-sections/01-your-job.png)
+
+    * ***REPLACE*** Portfolio includes an image on the left side and profession information on the right side.
 This section is consistent on all pages.
 
-* ### Career path section
+<br>
 
-    * Career path section contains top achievements and career  points. It is presented as a timeline.
+### Our Job (Services)
+----
 
-* ### Packages section
+![Our Job](assets/readme/features/content-sections/02-our-job.png)
 
-    * This part has three packages to choose for a customers. All buttons are linked to offer site.
+    * ***REPLACE*** This part has three packages to choose for a customers. All buttons are linked to offer site.
 
-## About me
+<br>
 
-* About me gives information about Annie's life and her professional background.
+### Let's Go! (Contact)
+----
 
-## Offer
+![Let's Go!](assets/readme/features/content-sections/03-lets-go.png)
 
-* This site provide packages description to customers.
-Here they can find more information and choose interesting offer.
+    * ***REPLACE*** Contact form is a main part on this site. User can contact by filling a form with interesting topic
 
-## Contact
+<br>
 
-* Contact form is a main part on this site. User can contact by filling a form with interesting topic.
-Below a form there is a map with location of a fitness studio.
+### 404 Page
 
-##  Future implementations
+* Description...
+____
+
+<br>
+<br>
+
+
+#  Future Implementations
 
 ### Technology
 As this is purely an HTML & CSS project, my aim was to avoid JavaScript at all costs, in order to see how far I could take CSS.
@@ -294,7 +338,11 @@ After extensive research, I've come to the conclusion that the following impleme
 
 [Back to Table of contents](#table-of-contents)
 ___
-# Technologies used
+
+<br>
+<br>
+
+# Technologies Used
 
 ### HTML5
 * For page markup.
