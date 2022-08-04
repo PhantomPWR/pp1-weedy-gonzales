@@ -176,9 +176,9 @@ The website consists of 1 main page containing 4 sections, and a 404 error page.
 
 ## Navigation
 
-* The navigation consists of links to the different page sections
-* The appearance and behaviour of the navigation links, is consistent across devices
-* The navigation links are:
+* Navigation consists of links to the different page sections
+* Navigation link appearance and behaviour is consistent across devices
+* The links are:
     * Your Job - scrolls to the introduction/benefits section
     * Our Job - scrolls to the section containing the services on offer
     * Let's Go! - scrolls to the contact form
@@ -241,7 +241,9 @@ The image was specifically chosen to showcase the result of a healthy lawn, i.e.
 
 In order to encourage the visitor to provide contact details, the site also features a modal window, containing a contact form.
 * The modal window is unobtrusive and initiated by the visitor
-* All cta buttons open modal window <======== CONTINUE HERE & ELABORATE
+* A semi-opaque background gives a visual clue that the visitor is still on the the same page, yet focuses attention on the call-to-action and contact form
+* An introductory paragraph reminds the visitor of the modal window's purpose and encourages them to fill in the form
+
 
 <br>
 
@@ -252,7 +254,9 @@ In order to encourage the visitor to provide contact details, the site also feat
 ![Footer](assets/readme/features/footer/01-footer.png)
 
 
-* Description...
+* Contains links to the company's various social media pages
+* A back-to-top button provides a shortcut to the top of the page, without having to manually scroll multiple times. This is especially helpful on smaller screens
+* The final element in the footer is the copyright notice
 
 <br>
 
@@ -262,7 +266,10 @@ In order to encourage the visitor to provide contact details, the site also feat
 ![Social Media Links](assets/readme/features/footer/02-social-media.png)
 
 
-* Description...
+* Familiar, easily identifiable icons, link to each corresponding social platform
+* Both `title` and `aria-label` attributes remind the visitor where the icon links to, as well as informing them that the link opens in a new browser tab
+* A border and change of colour give visual feedback when interacting with the links
+* *PLEASE NOTE:* As this is a fictitious company website, all social media links go to the main URLs of the respective platforms - NOT real Weedy Gonzales accounts 
 
 <br>
 
@@ -271,7 +278,18 @@ In order to encourage the visitor to provide contact details, the site also feat
 
 ![Back to Top Button](assets/readme/features/footer/03-back-to-top.png)
 
-* Description...
+* The back-to-top button contains both text and an icon, which makes its purpose clear
+* Once again, visual feedback confirms purpose and interaction
+
+<br>
+
+### ***Mobile Footer***
+----
+
+![Mobile Footer](assets/readme/features/footer/04-footer-mobile.png)
+
+* On small mobile screens, the order of the elements changes so the back-to-top button is above all other footer elements. This makes it easier to access
+* In line with the "design for big thumbs" principle, social media icons have sufficient space to avoid touching unintended links
 
 <br>
 
