@@ -432,19 +432,50 @@ ___
 ## Functionality testing
 ---
 
-*** === REPLACE === ***
- I used Mozilla web developer tools and Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+ I mainly used Chrome developer tools throughout the project for testing and troubleshooting.
  
- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) extension to chrome browser was very helpful.
+  The Chrome browser extention, [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) was very helpful in identifying elements overflowing their containers.
 
 
 ## Compatibility testing
 ---
 
- *** === REPLACE === ***
- Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices in both Mozilla web developer tolls and Chrome developer tools. 
+ Testing was done on various browsers, virtual and physical devices.
+
+<br>
+
+ ### Desktop Browsers
+| Browser | Device | Operating System |
+|--|--|--|
+| Google Chrome (v103.0.5060.134) | iMac 27 inch | MacOS Big Sur (v11.6.7) |
+| Mozilla FireFox (v103.0.1) | iMac 27 inch | MacOS Big Sur (v11.6.7) |
+| Apple Safari (v15.6) | iMac 27 inch | MacOS Big Sur (v11.6.7) |
+| Microsoft Edge (v103.0.1264.77) | iMac 27 inch | MacOS Big Sur (v11.6.7) |
+
+<br>
+
+ ### Laptop Browsers
+| Browser | Device | Operating System |
+|--|--|--|
+| Google Chrome (v103.0.5060.134) | Macbook Pro 13 inch | MacOS Big Sur (v11.6.1) |
+| Mozilla FireFox (v103.0.1) | Macbook Pro 13 inch | MacOS Big Sur (v11.6.1) |
+| Apple Safari (v15.6) | Macbook Pro 13 inch | MacOS Big Sur (v11.6.1) |
+| Microsoft Edge (v103.0.1264.77) | Macbook Pro 13 inch | MacOS Big Sur (v11.6.1) |
+
+<br>
+
+### Mobile Devices
+| Browser | Device | Operating System |
+|--|--|--|
+| Safari (v15) | iPhone Xs | iOS (v15.6) |
+| Safari (v15) | iPhone 12 Pro | iOS (v15.5) |
+
+<br>
+
+### Virtual Devices
+
+* Google Chrome (v103.0.5060.134)
  
- I tested on hardware devices such as: Lenovo ideapad with Ubuntu and Windows OS's, Lenovo smartphone with Android 7, Google pixel 3 with Android 11.
 
 
 ## User stories testing
