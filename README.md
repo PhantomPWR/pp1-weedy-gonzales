@@ -328,7 +328,7 @@ ____
 ![Our Job](assets/readme/features/content-sections/02-our-job.png)
 
 * In a similar vein to the previous section, the message is simple: lawn treatment & weed control isn't the job of the visitor
-* This is why the section is titled "Our Job"; the time, equipment and experience involved is not something the visitor wants to be burdened with
+* This is why the section is titled "Our Job"; the time, equipment and experience involved is not something the visitor wants to be trammeled by
 * Once again, the visitor is offered the opportunity to unload the burden of maintaining their lawns and/or hard surfaces
 
 <br>
@@ -338,7 +338,7 @@ ____
 
 ![Let's Go!](assets/readme/features/content-sections/03-lets-go.png)
 
-    * ***REPLACE*** Contact form is a main part on this site. User can contact by filling a form with interesting topic
+    * The heading, paragraph and form button all urge the visitor to take action - again, without using the usual pushy sales language
 
 <br>
 
@@ -347,7 +347,8 @@ ____
 
 ![404 Page](assets/readme/pages/404-page.png)
 
-* Description...
+* The light-hearted language is used to defuse a potentially frustrating situation
+* The button text reassures the visitor that it has come to the rescue
 ____
 
 <br>
@@ -357,16 +358,16 @@ ____
 #  Future Implementations
 
 ### Technology
-As this is purely an HTML & CSS project, my aim was to avoid JavaScript at all costs, in order to see how far I could take CSS.
+As this is purely an HTML & CSS project, my aim was to avoid JavaScript at all costs, and see how far I could take CSS.
 
 After extensive research, I've come to the conclusion that the following implementations/improvements would require JavaScript:
-* A floating back-to-top button, which appears after scrolling past a certain point
-* Run a fading-out animation, when closing the modal window
+* A floating back-to-top button, appearing after scrolling past a certain point
+* Running a fading-out animation, when closing the modal window
 * Stop the page from scrolling behind the open modal
 * Prevent anchors adding unnecessary, meaningless browser history
 
 ### Content
-* The ability to view availability and book a home visit
+* A calendar booking system to view availability and book a home visit
 * A blog containing lawn care and weed control tips
 * A page showing before & after photos, as well as customer feedback
 
