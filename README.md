@@ -315,8 +315,10 @@ ____
 
 ![Your Job](assets/readme/features/content-sections/01-your-job.png)
 
-    * ***REPLACE*** Portfolio includes an image on the left side and profession information on the right side.
-This section is consistent on all pages.
+* This section reaffirms the ideal scenario pictured by the hero image, i.e. the visitor has better things to do than slaving away over weeds
+* The title - Your Job - breaks away from the hard-sell "benefits" approach, which is almost the norm in many industries. Instead, it puts the visitor first
+* The visitor is presented with a checklist, which deliberately doesn't include maintaining the lawn, paving, etc.
+* A prominent, yet friendly button invites the visitor to take action
 
 <br>
 
@@ -325,7 +327,9 @@ This section is consistent on all pages.
 
 ![Our Job](assets/readme/features/content-sections/02-our-job.png)
 
-    * ***REPLACE*** This part has three packages to choose for a customers. All buttons are linked to offer site.
+* In a similar vein to the previous section, the message is simple: lawn treatment & weed control isn't the job of the visitor
+* This is why the section is titled "Our Job"; the time, equipment and experience involved is not something the visitor wants to be burdened with
+* Once again, the visitor is offered the opportunity to unload the burden of maintaining their lawns and/or hard surfaces
 
 <br>
 
@@ -339,6 +343,9 @@ This section is consistent on all pages.
 <br>
 
 ### 404 Page
+----
+
+![404 Page](assets/readme/pages/404-page.png)
 
 * Description...
 ____
