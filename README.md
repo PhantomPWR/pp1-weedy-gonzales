@@ -10,7 +10,7 @@ Weedy Gonzales is a fictional lawn care and weed control company, operating in W
 
 The site's main objective is to guide the visitor towards getting in contact, using the shortest route possible - with ample opportunity to do so along the way.
 
-The visitor's journey is laid out in a concise, lighthearted fashion, inspired by the ["Jobs To Be Done" framework](https://www.amazon.co.uk/Jobs-Be-Done-Playbook-Organization/dp/1933820683/ref=asc_df_1933820683/?tag=googshopuk-21&linkCode=df0&hvadid=427902758346&hvpos=&hvnetw=g&hvrand=470378916435561382&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006628&hvtargid=pla-899714836217&psc=1&th=1&psc=1&tag=&ref=&adgrpid=103526071910&hvpone=&hvptwo=&hvadid=427902758346&hvpos=&hvnetw=g&hvrand=470378916435561382&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006628&hvtargid=pla-899714836217).
+The visitor's journey is laid out in a concise, lighthearted fashion, inspired by the ["Jobs To Be Done"](https://www.amazon.co.uk/Jobs-Be-Done-Playbook-Organization/dp/1933820683/ref=asc_df_1933820683/?tag=googshopuk-21&linkCode=df0&hvadid=427902758346&hvpos=&hvnetw=g&hvrand=470378916435561382&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006628&hvtargid=pla-899714836217&psc=1&th=1&psc=1&tag=&ref=&adgrpid=103526071910&hvpone=&hvptwo=&hvadid=427902758346&hvpos=&hvnetw=g&hvrand=470378916435561382&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1006628&hvtargid=pla-899714836217) framework.
 
 1. This journey starts by picturing the ideal outcome (Hero Image)
 2. Reminding the visitor of the reasons they want a healthy lawn in the first place (Your Job)
@@ -85,6 +85,8 @@ The aim of this website is to make potential customers aware of the service and 
 * I would like to find advice and tips on keeping my lawn healthy
 * I would like to know how to keep my outdoor spaces clean and weed-free
 
+<br>
+
 ## Site structure
 ---
 
@@ -143,6 +145,7 @@ Main colours used for the website:
 * Photos: sourced from  [pexels.com](https://www.pexels.com/)
 * Logo & favicon: Created myself
 
+<br>
 
 [Back to Table of contents](#table-of-contents)
 ___
@@ -153,7 +156,7 @@ ___
 # Features
 
 
-The website consists of 1 main page containing 4 sections, and a 404 error page. The features of the site are as follows:
+The website consists of 1 main page containing 4 sections, a 404 error page and thank-you page. The features of the site are as follows:
 
 ## Main Header
 
@@ -368,8 +371,8 @@ ____
 
 #  Future Implementations
 
-### Technology
-As this is purely an HTML & CSS project, my aim was to avoid JavaScript at all costs, and see how far I could take CSS.
+### **Technology**
+**As this is purely an HTML & CSS project, my aim was to avoid JavaScript at all costs, and see how far I could take CSS.**
 
 After extensive research, I've come to the conclusion that the following implementations/improvements would require JavaScript:
 * A floating back-to-top button, appearing after scrolling past a certain point
@@ -377,7 +380,7 @@ After extensive research, I've come to the conclusion that the following impleme
 * Stop the page from scrolling behind the open modal
 * Prevent anchors adding unnecessary, meaningless browser history
 
-### Content
+### **Content**
 * A calendar booking system to view availability and book a home visit
 * A blog containing lawn care and weed control tips
 * A live chat function for handling enquiries and offering advice
@@ -392,50 +395,54 @@ ___
 
 # Technologies Used
 
-### HTML5
+### **HTML5**
 * For page markup.
 
-### CSS
+### **CSS3**
 * For visual presentation and interactive feedback.
 
-### Font Awesome
+### **Font Awesome**
 * An icon library for navigation links, social links, page section visual cues and back-to-top button.
 
-### Google fonts
+### **Google Fonts**
 * For serving custom fonts.
 
-### GitHub
+### **GitHub**
 * Hosting the site repository.
 
-### GitHub Pages
+### **GitHub Pages**
 * Hosting the live site.
 
-### Git
+### **Git**
 * For version control.
 
-### Gitpod
+### **Gitpod**
 * Online, cross-device IDE.
 
-### Balsamiq
+### **Balsamiq**
 * Wireframing application.
 
-### Affinity Designer
+### **Affinity Designer**
 * Graphic editor for creating the site logo.
 
-### Affinity Photo
+### **Affinity Photo**
 * Photo editor for manipulating the hero & services images.
 
-### Cloudconvert.com
+### **Cloudconvert.com**
 * Converting images to .webp format
 
-### Tinypng.com
+### **Tinypng.com**
 * Image compression & optimisation
 
+<br>
 
 
 [Back to Table of contents](#table-of-contents)
-
 ___
+
+<br>
+<br>
+
 # Testing
 
 <br>
@@ -447,6 +454,7 @@ ___
  
   The Chrome browser extention, [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) was very helpful in identifying elements overflowing their containers.
 
+<br>
 
 ## Compatibility testing
 ---
@@ -515,11 +523,13 @@ The following virtual devices were tested in Chrome Developer Tools:
 * Google Nest Hub
 * Google Nest Hub Max
 
-
-
+<br>
+<br>
 
 ## User stories testing
 ---
+
+<br>
 
 ### As a business owner:
 
@@ -529,6 +539,7 @@ The following virtual devices were tested in Chrome Developer Tools:
 - I would like to encourage potential and existing customers to book home visits
     > In addition to the contact form in the "Let's Go" section, buttons to access the modal contact form are present in every section of the page
 
+<br>
 
 ### As a new customer:
 - I wish to find information about lawn care and weed control
@@ -537,6 +548,7 @@ The following virtual devices were tested in Chrome Developer Tools:
 - I would like advice on my specific needs
     > As a minimum viable product, the website offers this opportunity via a response to providing contact details
 
+<br>
 
 ### As a returning customer:
 - I would like to find advice and tips on keeping my lawn healthy
@@ -546,6 +558,10 @@ The following virtual devices were tested in Chrome Developer Tools:
 
 
 ---
+
+<br>
+<br>
+
 ## Issues found during site development
 
 <br>
