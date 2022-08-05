@@ -23,6 +23,7 @@
     - Our Job
     - Let's Go
     - Footer
+    - Thank You Page
     MEDIA QUERIES
     - Desktops
     - Laptops
@@ -369,6 +370,10 @@ footer a:focus {
 
 footer i {
     font-size: 1.8rem;
+}
+
+.thank-you aside {
+    font-size: 2.2rem;
 }
 
 
@@ -771,6 +776,27 @@ footer .container-inner > .flex-container {
 }
 
 
+/* Thank You Page */
+.thank-you {
+    height: 100vh;
+}
+
+.thank-you  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.thank-you aside {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: 50%;
+}
+
 
 
 /* MEDIA QUERIES */
@@ -824,6 +850,11 @@ footer .container-inner > .flex-container {
         height: 60%;
     }
 
+    .thank-you aside {
+        height: 200px;
+        width: 90%;
+    }
+
 }
 
 /* Tablet (Portrait) */
@@ -858,6 +889,11 @@ footer .container-inner > .flex-container {
 
     nav {
         display: none;
+    }
+
+    .thank-you aside {
+        height: 240px;
+        width: 90%;
     }
 
 }
@@ -1089,6 +1125,11 @@ footer .container-inner > .flex-container {
         height: 25px;
     }
 
+    .thank-you aside {
+        font-size: 1.9rem;
+        width: 80%;
+    }
+
 }
 
 
@@ -1108,6 +1149,11 @@ footer .container-inner > .flex-container {
     #copyright i {
         display: block;
         margin-bottom: 1rem;
+    }
+
+    .thank-you aside {
+        height: 200px;
+        width: 90%;
     }
 
 }
