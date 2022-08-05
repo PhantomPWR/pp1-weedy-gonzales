@@ -543,7 +543,7 @@ The following virtual devices were tested in Chrome Developer Tools:
 The shortcut icon displayed correctly, when viewing the site locally. However, the icon didn't appear on GitHub Pages.
 * I placed the favicon.ico file in the root directory of the site, but nothing else
 
-### **Fix**
+#### **Fix**
 * I did a Google search for "favicon not displaying on github pages"
 * Found an answer on StackOverflow (https://stackoverflow.com/questions/46163065/github-pages-website-favicon-not-showing)
 * Added the below code snippet to the <head> of index.html and 404.html, which resolved the issue:
@@ -552,27 +552,11 @@ The shortcut icon displayed correctly, when viewing the site locally. However, t
 ```
 
 
-* #### Macbook Pro Compatibility
+### **Macbook Pro Compatibility**
 
 The layout of the call-to-action inside the hero section, broke on the 2020 13inch Macbook Pro.
 
 ![2020 13inch Macbook Pro - Aside Broken](assets/readme/issues/2020-macbook-pro-aside-broken.jpg)
-
-### **Fix**
-Inside my Phone Large (Landscape) media query, I changed the max-width condition from:
-`@media (max-width: 914px)`
-
-to
-
-`@media (max-width: 915px)`
-
-<br>
-
-* #### Samsung Galaxy S20 Ultra Compatibility
-
-The layout of the call-to-action inside the hero section, broke on the Samsung Galaxy S20 Ultra in landscape orientation.
-
-![Samsung Galaxy S20 Ultra (landscape) - Aside Broken](assets/readme/issues/samsung-galaxy-s20-ultra-landscape-aside-broken.png)
 
 ### **Fix**
 Inside my Laptops media query, I added a rule to set the min- and max-height of the aside element:
@@ -582,6 +566,27 @@ aside {
         min-width: 300px;
     }
 ```
+
+<br>
+
+### **Samsung Galaxy S20 Ultra Compatibility**
+
+The layout of the call-to-action inside the hero section, broke on the Samsung Galaxy S20 Ultra in landscape orientation.
+
+![Samsung Galaxy S20 Ultra (landscape) - Aside Broken](assets/readme/issues/samsung-galaxy-s20-ultra-landscape-aside-broken.png)
+
+### **Fix**
+Inside my Phone Large (Landscape) media query, I changed the max-width condition from:
+
+<br>
+
+`@media (max-width: 914px)`
+
+to
+
+`@media (max-width: 915px)`
+
+<br>
 
 ## *** === REPLACE === *** Performance testing
 
