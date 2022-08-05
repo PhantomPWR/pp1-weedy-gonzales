@@ -349,6 +349,17 @@ ____
 
 * The light-hearted language is used to defuse a potentially frustrating situation
 * The button text reassures the visitor that it has come to the rescue
+
+
+<br>
+
+### Thank You Page
+----
+
+![Thank You Page](assets/readme/pages/form-thank-you-page.png)
+
+* When the visitor completed any of the contact forms, it is a good user experience to receive acknowledgement that the form has been submitted successfully
+* Once a form has been submitted, the site visitor is redirected to a branded thank-you page, containing a friendly confirmation message, as well as the various familiar navigation links
 ____
 
 <br>
@@ -639,9 +650,19 @@ I tested the form again and the field validation worked as expected:
 
 ![Phone Field Validation Pass](assets/readme/form-tests/form-validation-type-tel-pass.png)
 
+After all tests have been completed successfully, I did the following:
+* Changed the form `action` attribute to a thank-you page URL
+* Changed the form `method` from `POST` to `GET`, in order to prevent errors caused by the submitted data not being sent anywhere
+* Added a note above the form HTML, to remind future developers working on the site that the `method` must be updated when the `action` is changed to a URL receiving/processing the form data
 
 <br>
 
+### **Accessibility**
+
+
+
+
+<br>
 
 ## *** === REPLACE === *** Code Validation
 ---
