@@ -43,13 +43,14 @@ Not all visitors might decide to take action only at the end of the journey, hen
 - [Testing](#testing)
     - [Functionality testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
-    - [Code Validation](#code-validation)
     - [User stories testing](#user-stories-testing)
     - [Issues found during site development](#issues-found-during-site-development)
-    - [Performance testing](#performance-testing)
+    - [Contact form testing](#contact-form-testing)
+    - [Accessibility](#accessibility)
+    - [Code validation and performance testing](#code-validation-and-performance-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
-- [Screenshots](#screenshots)
+
 
 
 # UX
@@ -715,7 +716,7 @@ WAVE also reported a couple of failed ARIA tests:
 
 <br>
 
-## Code Validation & Performance Testing
+## **Code Validation and Performance Testing**
 ---
  I used the following services for code validation and final testing:
  
@@ -776,32 +777,45 @@ ___
 
 The project has been deployed on GitHub Pages. As my development environment I used Gitpod, from where I commited all changes to the Git version control system.
 
-To save changes, used the following commands:
+**To save changes, used the following commands:**
 1. [cmd]+s to save changes
 2. `git add .` - to add all changes to the queue
 3. `git commit -m "commit message"` - to commit changes
 4. `git push` - to push changes to the remote main repository
 
+<br>
 
-To deploy a project I had to:
+**To deploy the project onto GitHub Pages, I did the following:**
 
-* Log in to GitHub and click on repository to deploy ([MP1](https://github.com/marcin-kli/MP1))
-* select `Settings` and find GitHub Pages section at the very bottom of the page
-* from source select `none` and then `Milestone-Projects` branch.
-* click `save` and page was deployed after auto-refresh.
->  Your site is published at https://marcin-kli.github.io/MP1/
+1. Log into GitHub and click on the relevant repository ([pp1-weedy-gonzales](https://github.com/PhantomPWR/pp1-weedy-gonzales))
+2. Click on `Settings`
+3. On the left, find and click on Pages
+4. Leave `Source` as is
+5. Under `Branch`, select `main`
+6. click `save`
+7. After an automatic page refresh the message will read: 
+>  Your site is live at https://phantompwr.github.io/pp1-weedy-gonzales/
 
-To run locally:
-* Log in to GitHub and click on repository to download ([MP1](https://github.com/marcin-kli/MP1))
-* select `Code` and click Download the ZIP file.
-* after download you can extract the file and use it in your local environment 
+<br>
+
+**To run a local instance:**
+
+1. Log into GitHub and click on the repository to be downloaded ([pp1-weedy-gonzales](https://github.com/PhantomPWR/pp1-weedy-gonzales))
+2. Select `Code` and click on `Download ZIP`
+3. After downloading, you can extract the file and use it in your local environment
 
 Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
-this repository ([MP1](https://github.com/marcin-kli/MP1)) into your github account.
+this repository ([pp1-weedy-gonzales](https://github.com/PhantomPWR/pp1-weedy-gonzales)) into your github account.
+
+<br>
 
 [Back to Table of contents](#table-of-contents)
 ___
+
+<br>
+<br>
+
 # Credits
 
 
@@ -814,16 +828,16 @@ ___
     * [css-tricks.com](https://css-tricks.com/)
 
 
-### Code
+### **Code**
 
 * Font-size reset to multiples of 10: CSS Double Reset, thanks to [Eventyret_mentor](https://code-institute-room.slack.com/team/U4MVA9YQP) at Code Institute
 * Links transition: [CSS transition Property](https://www.w3schools.com/cssref/css3_pr_transition.asp)
 * Pure CSS modal, using the ":target pseudo-class" technique [CSS-only modal](https://www.w3schools.com/cssref/sel_target.asp)
 
-#### README File
-* [marcin-kli](https://github.com/marcin-kli) Whose [README.md](https://github.com/marcin-kli/MP1/blob/45f9748e8bccecbb3de182fbbabe521e4974064b/README.md) file I used as an example for creating mine.
+#### **README File**
+* [marcin-kli](https://github.com/marcin-kli) whose [README.md](https://github.com/marcin-kli/MP1/blob/45f9748e8bccecbb3de182fbbabe521e4974064b/README.md) file I used as an example for creating mine.
 
-### Content:
+### **Content:**
 *  Content reference and inspiration:
 [Greensleeves UK](https://www.greensleeves-uk.com/)
 [Luxury Lawns UK](https://luxurylawns.co.uk/)
@@ -836,7 +850,7 @@ My VERY patient wife, Nikki, for her copywriting services
   * I did a Google search for Weedy Gonzales, and came across an existing [Weedy Gonzales](https://soundcloud.com/pluegel), who appears to be a songwriter/DJ - so I doubt anybody would mistake him for a lawn care company.
 
 
-### Images:
+### **Images**
 
 #### Pexels.com:
 * [Pexels - Filipe Delgado](https://images.pexels.com/photos/1601495/pexels-photo-1601495.jpeg?cs=srgb&dl=pexels-filipe-delgado-1601495.jpg&fm=jpg)
@@ -847,29 +861,7 @@ My VERY patient wife, Nikki, for her copywriting services
 
 * [Pexels - Max Artbovich](https://images.pexels.com/photos/7061662/pexels-photo-7061662.jpeg?cs=srgb&dl=pexels-max-vakhtbovych-7061662.jpg&fm=jpg)
 
-
-
-[Back to Table of contents](#table-of-contents)
-___
-
-# Screenshots
-
-## *** === REPLACE === *** Project screenshots
-
-![bug_performance1](md_images/screenshots/home_1.png)
-
-![bug_performance1](md_images/screenshots/home_2.png)
-
-![bug_performance1](md_images/screenshots/about.png)
-
-![bug_performance1](md_images/screenshots/offer_1.png)
-
-![bug_performance1](md_images/screenshots/offer_2.png)
-
-![bug_performance1](md_images/screenshots/offer_3.png)
-
-![bug_performance1](md_images/screenshots/contact.png)
-
+<br>
 
 [Back to Table of contents](#table-of-contents)
 ___
