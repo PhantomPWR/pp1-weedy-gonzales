@@ -864,7 +864,7 @@ footer .container-inner > .flex-container {
 
 
 /* Phone Large (Landscape) */
-@media (max-width: 914px)
+@media (max-width: 915px)
    and (orientation: landscape) {
 
     #hero {

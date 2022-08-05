@@ -556,21 +556,32 @@ The shortcut icon displayed correctly, when viewing the site locally. However, t
 
 The layout of the call-to-action inside the hero section, broke on the 2020 13inch Macbook Pro.
 
-![Let's Go!](assets/readme/issues/2020-macbook-pro-aside-broken.jpg)
+![2020 13inch Macbook Pro - Aside Broken](assets/readme/issues/2020-macbook-pro-aside-broken.jpg)
 
-I had to create a block element with a class "ipad-screen" and non-breaking space element inside a block element.
-In CSS file I had to create @media rule that will show this block element on Ipad displays only.
+### **Fix**
+Inside my Phone Large (Landscape) media query, I changed the max-width condition from:
+`@media (max-width: 914px)`
 
->}
-@media screen and (max-width: 991px) and (min-width: 0px),(min-width:1200px){
-    .ipad-screen {
-    display: none;
-}
-}
+to
 
-![bug_solutino1](testing/bug_solution1.png)
+`@media (max-width: 915px)`
 
-![bug_solutino2](testing/bug_solution2.png)
+<br>
+
+* #### Samsung Galaxy S20 Ultra Compatibility
+
+The layout of the call-to-action inside the hero section, broke on the Samsung Galaxy S20 Ultra in landscape orientation.
+
+![Samsung Galaxy S20 Ultra (landscape) - Aside Broken](assets/readme/issues/samsung-galaxy-s20-ultra-landscape-aside-broken.png)
+
+### **Fix**
+Inside my Laptops media query, I added a rule to set the min- and max-height of the aside element:
+```
+aside {
+        min-height: 300px;
+        min-width: 300px;
+    }
+```
 
 ## *** === REPLACE === *** Performance testing
 
