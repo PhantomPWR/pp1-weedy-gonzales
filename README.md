@@ -537,20 +537,24 @@ The following virtual devices were tested in Chrome Developer Tools:
 ---
 ## Issues found during site development
 
-* #### Shortcut icon (favicon) didn't appear on the deployed site
-![testing_issue_1](testing/testing_issue_1.png)
+<br>
+
+### **Shortcut icon (favicon) missing on the deployed site**
+![Favicon Missing on GitHub Pages](/assets/readme/issues/favicon-missing-github-pages.png)
 
 The shortcut icon displayed correctly, when viewing the site locally. However, the icon didn't appear on GitHub Pages.
 * I placed the favicon.ico file in the root directory of the site, but nothing else
 
-#### **Fix**
+### **Fix**
 * I did a Google search for "favicon not displaying on github pages"
-* Found an answer on StackOverflow (https://stackoverflow.com/questions/46163065/github-pages-website-favicon-not-showing)
-* Added the below code snippet to the <head> of index.html and 404.html, which resolved the issue:
-```
-<link  rel="shortcut icon"  type="image/x-icon"  href="favicon.ico?">
-```
+* I then found an answer in a GitHub discussion (https://github.com/reposense/RepoSense/issues/897)
+* Added the below code snippet to the `<head>` of all `.html` files, which resolved the issue:
+* `<link rel="shortcut icon" href="favicon.ico">`
 
+![Favicon Fixed on GitHub Pages](/assets/readme/issues/favicon-fixed-github-pages.png)
+
+<br>
+<br>
 
 ### **Macbook Pro Compatibility**
 
@@ -567,6 +571,7 @@ aside {
     }
 ```
 
+<br>
 <br>
 
 ### **Samsung Galaxy S20 Ultra Compatibility**
@@ -587,19 +592,55 @@ to
 `@media (max-width: 915px)`
 
 <br>
+<br>
 
-## *** === REPLACE === *** Performance testing
+## Contact Form Testing
+---
 
-I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
-I had to do couple of changes to improve performance. Screenshots are presented below:
+<br>
 
-![bug_performance1](testing/performance1.png)
-![bug_performance2](testing/performance2.png)
+### **Form Submission**
 
-Final results:
-![performance_final](testing/performance_final.png)
-I noticed that this tests scores vary from time to time and depends on external libraries as well. 
+1. As a test, I set the the contact form `action` attribute to the Code Institue form dump URL (https://formdump.codeinstitute.net)
+2. I filled out and submitted the form
+3. All the input field data was sent and recorded correctly:
 
+![Form Data Sent Correctly](assets/readme/form-tests/form-data-sent-correctly.png)
+
+<br>
+
+### **Form Validation**
+
+<br>
+
+**Email Field**
+
+The email field validation works correctly:
+
+![Email Field Validation Pass](assets/readme/form-tests/form-validation-email-pass.png)
+
+<br>
+
+**Phone Number Field**
+
+On testing the phone (tel) field validation, I noticed that any input was accepted - not just numbers:
+![Phone Field Validation Fail](assets/readme/form-tests/form-validation-type-tel-fail.png)
+
+<br>
+
+### **Fix**
+After asking on Slack and searching on [W3Schools](https://www.w3schools.com/html/html_form_input_types.asp), I realised that the input `type="tel"` needs a `pattern` attribute, containing the desired format to use as a reference.
+
+As the company's target audience is located in the Southern England, I decided to use the following pattern:
+
+`pattern="[0-9]{11}"`
+
+I tested the form again and the field validation worked as expected:
+
+![Phone Field Validation Pass](assets/readme/form-tests/form-validation-type-tel-pass.png)
+
+
+<br>
 
 
 ## *** === REPLACE === *** Code Validation
