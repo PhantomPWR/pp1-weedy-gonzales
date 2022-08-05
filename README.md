@@ -474,8 +474,37 @@ ___
 
 ### Virtual Devices
 
-* Google Chrome (v103.0.5060.134)
- 
+The following virtual devices were tested in Chrome Developer Tools:
+
+<br>
+
+**Phones**
+
+ * iPhone 5/SE
+ * iPhone X
+ * iPhone SE
+ * iPhone XR
+ * Google Pixel 5
+ * Samsung Galaxy S8+
+ * Samsung Galaxy S20 Ultra
+
+<br>
+
+**Tablets**
+
+* iPad Mini
+* iPad Air
+* iPad Pro
+* Surface Pro 7
+
+<br>
+
+**Other**
+
+* Google Nest Hub
+* Google Nest Hub Max
+
+
 
 
 ## User stories testing
@@ -501,8 +530,8 @@ ___
 ### As a returning customer:
 - I would like to find advice and tips on keeping my lawn healthy
 - I would like to know how to keep my outdoor spaces clean and weed-free
-    > In this first version of the website, all enquiries are handled by the contact form
-    > Future iterations will include blog articles containing hints & tips, and a live chat function for handling questions and enquiries
+    > In this first version of the website, all enquiries are handled by the contact form.
+    >  Future iterations will include blog articles containing hints & tips, and a live chat function for handling questions and enquiries
 
 
 ---
