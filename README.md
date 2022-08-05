@@ -656,7 +656,7 @@ On testing the phone (tel) field validation, I noticed that any input was accept
 <br>
 
 ### **Fix**
-After asking on Slack and searching on [W3Schools](https://www.w3schools.com/html/html_form_input_types.asp), I realised that the input `type="tel"` needs a `pattern` attribute, containing the desired format to use as a reference.
+After asking on Slack and searching [W3Schools](https://www.w3schools.com/html/html_form_input_types.asp), I realised that the input `type="tel"` needs a `pattern` attribute, containing the desired format to use as a reference.
 
 As the company's target audience is located in the Southern England, I decided to use the following pattern:
 
@@ -675,17 +675,85 @@ After all tests have been completed successfully, I did the following:
 
 ### **Accessibility**
 
+<br>
 
+My initial Lighthouse tests revealed a contrast issue on the buttons: 
 
+![Phone Field Validation Pass](assets/readme/accessibility/lighthouse-accessibility-button-contrast-fail.png)
+
+I used [WAVE](https://wave.webaim.org/) to check and adjust the ratio until I found a combination that pass both AA and AAA tests.
+
+<br>
+* After applying a flatter shade of orange for the background and a very dark grey for the text, the button contrast passed
+* I also applied a deeper shade of green for headings, link hover colours and relevant backgrounds. Although this wasn't a flagged issue, it did improve the contrast ratio.
 
 <br>
 
-## *** === REPLACE === *** Code Validation
+WAVE also reported a couple of failed ARIA tests:
+
+<br>
+
+![Failed ARIA Tests](assets/readme/accessibility/lighthouse-accessibility-aria-ids-fail.png)
+
+<br>
+
+* When I created the modal window, I duplicated the contact form
+* This meant that the ARIA IDs for the form elements weren't unique anymore
+* I rectified the errors by adding `-modal` to the relevant IDs
 ---
- At the and of the project I used two websites to validate a code
+
+<br>
+<br>
+
+![No ARIA Landmarks](assets/readme/accessibility/wave-no-aria-landmarks.png)
+
+<br>
+
+* As the 404 page only contains one main container, I used a `<div>`, which resulted in the error above
+* I changed the `<div>` to a `<section>`, which also didn't work
+* After reviewing a list of semantic HTML elements, I finally used `<main>`, which passed the test
+
+<br>
+
+## Code Validation & Performance Testing
+---
+ I used the following services for code validation and final testing:
  
- * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+ * [WAVE](https://wave.webaim.org/) to test accessibility
+ * Lighthouse (Chrome Developer Tools) to test performance
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
+ 
+
+ <br>
+
+ ### **Test Results**
+ ---
+
+ <br>
+
+### **WAVE**
+
+
+ ---
+
+ <br>
+
+### **Lighthouse**
+
+
+ ---
+
+ <br>
+
+### **HTML Checker**
+
+
+ ---
+
+ <br>
+
+### **CSS Validator**
 
 
 [Back to Table of contents](#table-of-contents)
@@ -704,7 +772,7 @@ To deploy a project I had to:
 * click `save` and page was deployed after auto-refresh.
 >  Your site is published at https://marcin-kli.github.io/MP1/
 
-To run localy:
+To run locally:
 * Log in to GitHub and click on repository to download ([MP1](https://github.com/marcin-kli/MP1))
 * select `Code` and click Download the ZIP file.
 * after download you can extract the file and use it in your local environment 
