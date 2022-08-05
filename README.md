@@ -552,11 +552,11 @@ The shortcut icon displayed correctly, when viewing the site locally. However, t
 ```
 
 
-* #### *** === REPLACE === *** Ipad screen compatibility
+* #### Macbook Pro Compatibility
 
-I found a bugs on Ipad screens. I would like to keep years dates just above the stars, but they were shifted.
+The layout of the call-to-action inside the hero section, broke on the 2020 13inch Macbook Pro.
 
-![testing_issue_2](testing/testing_ipad_screen.png)
+![Let's Go!](assets/readme/issues/2020-macbook-pro-aside-broken.jpg)
 
 I had to create a block element with a class "ipad-screen" and non-breaking space element inside a block element.
 In CSS file I had to create @media rule that will show this block element on Ipad displays only.
