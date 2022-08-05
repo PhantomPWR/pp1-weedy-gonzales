@@ -721,7 +721,7 @@ WAVE also reported a couple of failed ARIA tests:
  
  * [WAVE](https://wave.webaim.org/) to test accessibility
  * Lighthouse (Chrome Developer Tools) to test performance
- * [Nu Html Checker](https://validator.w3.org/) to test HTML
+ * [Nu Html Validator](https://validator.w3.org/) to validate HTML
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
  
 
@@ -733,28 +733,38 @@ WAVE also reported a couple of failed ARIA tests:
  <br>
 
 ### **WAVE**
-
+![WAVE Test main-page](assets/readme/test-results/main-page/main-page-wave.png)
+![WAVE Test thank-you-page](assets/readme/test-results/thank-you-page/thank-you-page-wave.png)
+![WAVE Test 404-page](assets/readme/test-results/404-page/404-page-wave.png)
 
  ---
 
  <br>
 
 ### **Lighthouse**
-
+![Lighthouse Test main-page](assets/readme/test-results/main-page/main-page-lighthouse.png)
+![Lighthouse Test thank-you-page](assets/readme/test-results/thank-you-page/thank-you-page-lighthouse.png)
+![Lighthouse Test 404-page](assets/readme/test-results/404-page/404-page-lighthouse.png)
 
  ---
 
  <br>
 
-### **HTML Checker**
-
+### **HTML Validator**
+![HTML Validator Test main-page](assets/readme/test-results/main-page/main-page-html-validator.png)
+![HTML Validator Test thank-you-page](assets/readme/test-results/thank-you-page/thank-you-page-html-validator.png)
+![HTML Validator Test 404-page](assets/readme/test-results/404-page/404-page-html-validator.png)
 
  ---
 
  <br>
 
 ### **CSS Validator**
+![CSS Validator Test main-page](assets/readme/test-results/main-page/main-page-css-validator.png)
+![CSS Validator Test thank-you-page](assets/readme/test-results/thank-you-page/thank-you-page-css-validator.png)
+![CSS Validator Test 404-page](assets/readme/test-results/404-page/404-page-css-validator.png)
 
+<br>
 
 [Back to Table of contents](#table-of-contents)
 
