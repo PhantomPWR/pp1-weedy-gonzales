@@ -769,10 +769,19 @@ WAVE also reported a couple of failed ARIA tests:
 [Back to Table of contents](#table-of-contents)
 
 ___
-# *** === REPLACE === *** Deployment
 
-The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
-I used push command in Gitpod to save changes into GitHub.
+<br>
+
+# Deployment
+
+The project has been deployed on GitHub Pages. As my development environment I used Gitpod, from where I commited all changes to the Git version control system.
+
+To save changes, used the following commands:
+1. [cmd]+s to save changes
+2. `git add .` - to add all changes to the queue
+3. `git commit -m "commit message"` - to commit changes
+4. `git push` - to push changes to the remote main repository
+
 
 To deploy a project I had to:
 
