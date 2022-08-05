@@ -801,6 +801,11 @@ footer .container-inner > .flex-container {
         height: 400px;
     }
 
+    aside {
+        min-height: 300px;
+        min-width: 300px;
+    }
+
     .card {
         width: 45%;
     }
